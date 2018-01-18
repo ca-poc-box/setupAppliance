@@ -1,0 +1,88 @@
+[
+    {
+        "suite" : ["APM"],
+        "product": "CA APM",
+        "hostname": "APM",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA APM.vmx",
+        "ipVar": "EM_IP",
+        "archive" : "CA-APM.ova"
+    },
+    {
+        "suite" : ["PM"],
+        "product": "CA Data Repository",
+        "vmx": "CA Data Repository.vmx",
+        "ipVar": "DR_IP",
+        "archive" : "CA-DR.ova"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product" : "CA Performance Center",
+        "vmx": "CA Performance Center.vmx",
+        "ipVar": "PC_IP",
+        "archive" : "CA-PC.ova"
+    }, 
+    {
+        "suite" : ["PM", "IM"],
+        "product" : "CA Spectrum",
+        "vmx": "CA Spectrum.vmx",
+        "ipVar": "SPEC_IP",
+        "archive" : "CA-Spectrum.ova"
+    }, 
+    {
+        "suite" : ["APM", "IM"],
+        "product" : "CA Service Operations Insight",
+        "vmx": "CA Service Operations Insight.vmx",
+        "ipVar": "SOI_IP",
+        "archive" : "CA-SOI.ova"
+    },
+    {
+        "suite" : ["PM","IM"],
+        "product" : "CA Network Flow Analysis",
+        "vmx": "CA Network Flow Analysis.vmx",
+        "ipVar": "NFA_IP",
+        "archive" : "CA-NFA.tgz"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product" : "CA Data Collector",
+        "vmx": "CA Data Collector.vmx",
+        "ipVar": "DC_IP",
+        "archive" : "CA-DC.ova"
+    }, 
+    {
+        "suite" : ["APM", "IM"],
+        "product" : "CA Unified Infrastructure Management",
+        "vmx": "CA Unified Infrastructure Management.vmx",
+        "ipVar": "NIM_IP",
+        "archive" : "CA-UIM.ova"
+    }, 
+    {
+        "suite" : ["APM", "IM"],
+        "product": "CA Application Delivery Analysis", 
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        }, 
+        "vmx": "CA Application Delivery Analysis.vmx", 
+        "ipVar": "ADA_IP", 
+        "archive" : "CA-ADA.tgz"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product" : "CA Data Aggregator",
+        "vmx": "CA Data Aggregator.vmx",
+        "ipVar": "DA_IP",
+        "archive" : "CA-DA.ova"
+    },
+    {
+        "suite" : ["IM","APM"],
+        "product": "CA Capacity Management",
+        "vmx": "CA Capacity Management.vmx",
+        "ipVar": "CAP_IP",
+        "archive" : "CA-CAPA.ova"
+    }
+]

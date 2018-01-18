@@ -1,0 +1,182 @@
+[
+    {
+        "suite" : ["PM"],
+        "product": "Ansible Controller",
+		    "hostname": "ansible",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "Ansible Controller_1.vmx",
+        "ipVar": "ANS_IP",
+        "archive" : "None.ova"
+    },
+    {
+        "suite" : ["APM", "IM"],
+        "product": "CA Application Delivery Analysis",
+        "hostname": "ada",
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        }, 
+        "vmx": "CA Application Delivery Analysis.vmx", 
+        "ipVar": "ADA_IP", 
+        "archive" : "CA-ADA.tgz"
+    }, 
+    {
+        "suite" : ["APM"],
+        "product": "CA APM",
+        "hostname": "APM",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA APM.vmx",
+        "ipVar": "EM_IP",
+        "archive" : "CA-APM.ova"
+    },
+    {
+        "suite" : ["APM"],
+        "product": "CA APM TIM",
+        "hostname": "TIM",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA APM TIM.vmx",
+        "ipVar": "TIM_IP",
+        "archive" : "CA-APM-TIM.ova"
+    },
+    {
+	      "suite" : ["PM", "IM"],
+        "product": "CA Business Intelligence Reporter",
+        "hostname": "CABI",
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        },
+	      "vmx": "CA Business Intelligence Reporter.vmx",
+	      "ipVar": "CABI_IP",
+	      "archive" : "CA-CABI.ova"
+    },
+    {
+	      "suite" : ["PM", "IM"],
+        "product": "CA Experience Collector",
+        "hostname": "DXC",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+	      "vmx": "CA Experience Collector.vmx",
+	      "ipVar": "DXC_IP",
+	      "archive" : "CA-DXC.ova"
+    },
+    {
+        "suite" : ["PM"],
+        "product" : "CA Data Aggregator",
+        "hostname": "DA",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Data Aggregator.vmx",
+        "ipVar": "DA_IP",
+        "archive" : "CA-DA.ova"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product" : "CA Performance Center",
+        "hostname": "CAPC",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Performance Center.vmx",
+        "ipVar": "PC_IP",
+        "archive" : "CA-PC.ova"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product": "CA Data Repository",
+        "hostname": "DR",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Data Repository.vmx",
+        "ipVar": "DR_IP",
+        "archive" : "CA-DR.ova"
+    }, 
+    {
+        "suite" : ["PM"],
+        "product" : "CA Data Collector",
+        "hostname": "DC",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Data Collector.vmx",
+        "ipVar": "DC_IP",
+        "archive" : "CA-DC.ova"
+    }, 
+    {
+        "suite" : ["PM","IM"],
+        "product" : "CA Network Flow Analysis",
+        "hostname": "NFA",
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Network Flow Analysis.vmx",
+        "ipVar": "NFA_IP",
+        "archive" : "CA-NFA.tgz"
+    }, 
+    {
+        "suite" : ["PM", "IM"],
+        "product" : "CA Spectrum SS and OC",
+        "hostname": "SPECTRUM",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Spectrum SS and OC.vmx",
+        "ipVar": "SPEC_IP",
+        "archive" : "CA-Spectrum.ova"
+    }, 
+    {
+        "suite" : ["APM", "IM"],
+        "product" : "CA Service Operations Insight",
+        "hostname": "SOI",
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Service Operations Insight.vmx",
+        "ipVar": "SOI_IP",
+        "archive" : "CA-SOI.ova"
+    },
+    {
+        "suite" : ["APM", "IM"],
+        "product" : "CA Unified Infrastructure Management",
+        "hostname": "UIM",
+        "authentication": {
+            "username": "administrator", 
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Unified Infrastructure Management.vmx",
+        "ipVar": "UIM_IP",
+        "archive" : "CA-UIM.ova"
+    }, 
+    {
+        "suite" : ["IM","APM"],
+        "product": "CA Virtual Network Assurance",
+        "hostname": "VNA",
+        "authentication": {
+            "username": "root",
+            "password": "CAdemo123"
+        },
+        "vmx": "CA Virtual Network Assurance.vmx",
+        "ipVar": "VNA_IP",
+        "archive" : "CA-VNA.ova"
+    }
+]

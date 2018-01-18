@@ -1,0 +1,295 @@
+{
+    "VMs": [
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "Ansible Controller",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564d5e87-6688-953c-ae78-29f6a2af4b3f",
+            "vmx": "Ansible Controller_1.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "administrator"
+            },
+            "name": "CA Business Intelligence Reporter",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564d3f12-cfc3-3118-92f2-cfbbc68166be",
+            "vmx": "CA Business Intelligence Reporter.vmx"
+        },
+        {
+            "authentication": null,
+            "name": "VMware vCenter Server Appliance",
+            "networks": [],
+            "timezone": null,
+            "uuid": "564d86d2-a596-2176-8193-67f6103fd7e3",
+            "vmx": "VMware vCenter Server Appliance.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Performance Center",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "4216c2ef-8d0c-f990-1734-a985fcd97fa0",
+            "vmx": "CA Performance Center.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Data Repository",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "42163b63-c9eb-1817-24c0-f89caaf7ad93",
+            "vmx": "CA Data Repository.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Data Aggregator",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "4216c63f-9388-e447-f7ec-17d8e58d6daf",
+            "vmx": "CA Data Aggregator.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Data Collector",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "421618a0-c9a5-1a82-544d-1a26396c46c7",
+            "vmx": "CA Data Collector.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Spectrum SS and OC",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "4216f21a-9eaa-b5a6-542d-5e807c316d7a",
+            "vmx": "CA Spectrum SS and OC.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Virtual Network Assurance",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "421617f9-55ff-8406-9781-b2691c6352b0",
+            "vmx": "CA Virtual Network Assurance.vmx"
+        },
+        {
+            "authentication": null,
+            "name": "CA APM",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "42161c78-6a95-b3bc-3592-f7a498a5328b",
+            "vmx": "CA APM.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA APM TIM",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "421692e6-debb-c6ad-6204-be29449c6d86",
+            "vmx": "CA APM TIM.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "root"
+            },
+            "name": "CA Experience Collector",
+            "networks": [],
+            "timezone": null,
+            "uuid": "42166fea-5668-fd5b-5241-3901b75846a3",
+            "vmx": "CA Experience Collector.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "administrator"
+            },
+            "name": "CA Application Delivery Analysis",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564d987e-a44c-c745-1d23-766b8518f301",
+            "vmx": "CA Application Delivery Analysis.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "administrator"
+            },
+            "name": "CA Network Flow Analysis",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564d95df-abb4-3503-327f-c7d81daa12f0",
+            "vmx": "CA Network Flow Analysis.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "administrator"
+            },
+            "name": "CA Service Operations Insight",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564ddc2a-5412-aa8d-5230-18b7f679fc00",
+            "vmx": "CA Service Operations Insight.vmx"
+        },
+        {
+            "authentication": {
+                "password": "CAdemo123",
+                "username": "administrator"
+            },
+            "name": "CA Unified Infrastructure Management",
+            "networks": [
+                {
+                    "dns": [],
+                    "gateway": "",
+                    "ipaddr": "dhcp",
+                    "netmask": "",
+                    "network": "VM Network"
+                }
+            ],
+            "timezone": null,
+            "uuid": "564d8252-ca2b-6802-c742-526d135634e3",
+            "vmx": "CA Unified Infrastructure Management.vmx"
+        }
+    ],
+    "system": {
+        "dns": [],
+        "gateway": "",
+        "netmask": "",
+        "timezone": {
+            "tz": "America/Los_Angeles",
+            "tzWin": "Pacific Standard Time"
+        }
+    }
+}

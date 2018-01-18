@@ -1,0 +1,2906 @@
+2017-11-17 20:49:29 : STARTED PoC Appliance Setup
+2017-11-17 20:49:29 : PoC Appliance Version: PoC Appliance Script V4.3
+2017-11-17 20:49:29 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2017-11-17 20:49:29 : Writing output to setupAppliance.log
+2017-11-17 20:49:29 : 
+2017-11-17 20:49:30 : Importing information from setupAppliance.properties
+2017-11-17 20:49:30 : Host time: 2017-11-17 20:49:30.461765+00:00
+2017-11-17 20:49:30 : POC TZ: America/Los_Angeles
+2017-11-17 20:49:30 : Default Gateway:
+2017-11-17 20:49:30 : Netmask:
+2017-11-17 20:49:30 : DNS Servers:
+2017-11-17 20:49:30 : 
+2017-11-17 20:49:30 : Name: CA APM
+2017-11-17 20:49:31 : UUID: 564d3b67-5496-bfe2-479e-1fa6d9c489cb
+2017-11-17 20:49:31 : Guest: centos64Guest
+2017-11-17 20:49:31 : State: Guest is ready
+2017-11-17 20:49:31 : Hostname: APM
+2017-11-17 20:49:31 : IP Address: 192.168.10.3
+2017-11-17 20:49:31 : Build:
+2017-11-17 20:49:31 : ...staging files for version 0.1.1
+2017-11-17 20:49:32 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:32 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:32 : 
+2017-11-17 20:49:32 : Name: CA APM TIM
+2017-11-17 20:49:32 : UUID: 564d6505-8440-a921-91ec-4075327a4dd0
+2017-11-17 20:49:32 : Guest: centos64Guest
+2017-11-17 20:49:32 : State: Guest is ready
+2017-11-17 20:49:32 : Hostname: TIM
+2017-11-17 20:49:32 : IP Address: 192.168.10.4
+2017-11-17 20:49:32 : Build:
+2017-11-17 20:49:32 : ...staging files for version 0.1.1
+2017-11-17 20:49:32 : Error: missing configuration for 'VM Network'
+2017-11-17 20:49:32 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:32 : 
+2017-11-17 20:49:32 : Name: CA Application Delivery Analysis
+2017-11-17 20:49:32 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2017-11-17 20:49:32 : Guest: windows7Server64Guest
+2017-11-17 20:49:34 : State: Guest is ready
+2017-11-17 20:49:34 : Hostname: ADA
+2017-11-17 20:49:34 : IP Address: 1.168.10.5
+2017-11-17 20:49:34 : Build:
+2017-11-17 20:49:34 : ...staging files for version 0.1.1
+2017-11-17 20:49:34 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:34 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:34 : 
+2017-11-17 20:49:34 : Name: CA Mobile App Analytics
+2017-11-17 20:49:34 : UUID: 564d341e-77ce-a439-af1c-4f7223f30d72
+2017-11-17 20:49:34 : Guest: otherGuest
+2017-11-17 20:49:34 : State: Guest NOT ready
+2017-11-17 20:49:34 : Power: poweredOn
+2017-11-17 20:49:34 : VM Tools: toolsNotRunning
+2017-11-17 20:49:34 : Net State: guestNetReady
+2017-11-17 20:49:34 : IP Address:
+2017-11-17 20:49:34 : 
+2017-11-17 20:49:34 : Name: CA Network Flow Analysis
+2017-11-17 20:49:34 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2017-11-17 20:49:34 : Guest: windows7Server64Guest
+2017-11-17 20:49:34 : State: Guest is ready
+2017-11-17 20:49:34 : Hostname: NFA
+2017-11-17 20:49:34 : IP Address: 192.168.10.6
+2017-11-17 20:49:34 : Build:
+2017-11-17 20:49:35 : ...staging files for version 0.1.1
+2017-11-17 20:49:35 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:35 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:35 : 
+2017-11-17 20:49:35 : Name: CA Service Operations Insight
+2017-11-17 20:49:35 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2017-11-17 20:49:35 : Guest: windows8Server64Guest
+2017-11-17 20:49:35 : State: Guest is ready
+2017-11-17 20:49:36 : Hostname: SOI
+2017-11-17 20:49:36 : IP Address: 192.168.10.14
+2017-11-17 20:49:36 : Build:
+2017-11-17 20:49:36 : ...staging files for version 0.1.1
+2017-11-17 20:49:36 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:36 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:36 : 
+2017-11-17 20:49:36 : Name: CA Spectrum
+2017-11-17 20:49:36 : UUID: 564db0a1-f21f-4d68-2b63-4e8bf2db2e7e
+2017-11-17 20:49:37 : Guest: windows8Server64Guest
+2017-11-17 20:49:37 : State: Guest is ready
+2017-11-17 20:49:37 : Hostname: SPECTRUM
+2017-11-17 20:49:37 : IP Address: 192.168.10.7
+2017-11-17 20:49:37 : Build:
+2017-11-17 20:49:37 : ...staging files for version 0.1.1
+2017-11-17 20:49:37 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:37 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:37 : 
+2017-11-17 20:49:37 : Name: CA Unified Infrastructure Management
+2017-11-17 20:49:37 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2017-11-17 20:49:37 : Guest: windows8Server64Guest
+2017-11-17 20:49:37 : State: Guest is ready
+2017-11-17 20:49:37 : Hostname: UIM
+2017-11-17 20:49:37 : IP Address: 192.168.10.13
+2017-11-17 20:49:39 : Build:
+2017-11-17 20:49:39 : ...staging files for version 0.1.1
+2017-11-17 20:49:39 : ...configuring IP address dhcp on VM Network
+2017-11-17 20:49:39 : ...configuring timezone America/Los_Angeles
+2017-11-17 20:49:39 : 
+2017-11-17 20:49:39 : ...configuring host resolution for CA APM
+2017-11-17 20:49:39 : ...configuring host resolution for CA APM TIM
+2017-11-17 20:49:39 : ...configuring host resolution for CA Application Delivery Analysis
+2017-11-17 20:49:41 : ...configuring host resolution for CA Network Flow Analysis
+2017-11-17 20:49:41 : ...configuring host resolution for CA Service Operations Insight
+2017-11-17 20:49:41 : ...configuring host resolution for CA Spectrum
+2017-11-17 20:49:41 : ...configuring host resolution for CA Unified Infrastructure Management
+2017-11-17 20:49:41 : FINISHED PoC Appliance Setup
+2017-11-17 20:49:41 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-12 23:11:35 : STARTED PoC Appliance Setup
+2018-01-12 23:11:35 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-12 23:11:35 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-12 23:11:35 : Writing output to setupAppliance.log
+2018-01-12 23:11:35 : 
+2018-01-12 23:11:35 : Traceback (most recent call last):
+2018-01-12 23:11:35 : File "./setupAppliance.py", line 4, in <module>
+2018-01-12 23:11:35 : from POC import POCAdmin
+2018-01-12 23:11:35 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 89
+2018-01-12 23:11:35 : except KeyError, e:
+2018-01-12 23:11:35 : ^
+2018-01-12 23:11:35 : SyntaxError: invalid syntax
+2018-01-12 23:11:35 : FINISHED PoC Appliance Setup
+2018-01-12 23:11:35 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 19:24:39 : STARTED PoC Appliance Setup
+2018-01-17 19:24:39 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 19:24:39 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 19:24:39 : Writing output to setupAppliance.log
+2018-01-17 19:24:39 : 
+2018-01-17 19:24:40 : Traceback (most recent call last):
+2018-01-17 19:24:40 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 19:24:40 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 19:24:40 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 19:24:40 : self._poc = Config(self._user, self._pwd)
+2018-01-17 19:24:40 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 19:24:40 : super(Config, self).__init__(self._si)
+2018-01-17 19:24:40 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 19:24:40 : self._bom = BOM()
+2018-01-17 19:24:40 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1153, in __init__
+2018-01-17 19:24:40 : self._bom = json.load(f, object_hook=byteify)
+2018-01-17 19:24:40 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 268, in load
+2018-01-17 19:24:40 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 332, in loads
+2018-01-17 19:24:40 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 339, in decode
+2018-01-17 19:24:40 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 355, in raw_decode
+2018-01-17 19:24:40 : json.decoder.JSONDecodeError: Expecting ',' delimiter: line 62 column 5 (char 1637)
+2018-01-17 19:24:40 : FINISHED PoC Appliance Setup
+2018-01-17 19:24:40 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 19:28:14 : STARTED PoC Appliance Setup
+2018-01-17 19:28:14 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 19:28:14 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 19:28:14 : Writing output to setupAppliance.log
+2018-01-17 19:28:15 : 
+2018-01-17 19:28:15 : Traceback (most recent call last):
+2018-01-17 19:28:15 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 19:28:15 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 19:28:15 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 19:28:15 : self._poc = Config(self._user, self._pwd)
+2018-01-17 19:28:15 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 19:28:15 : super(Config, self).__init__(self._si)
+2018-01-17 19:28:16 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 19:28:16 : self._bom = BOM()
+2018-01-17 19:28:16 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1153, in __init__
+2018-01-17 19:28:16 : self._bom = json.load(f, object_hook=byteify)
+2018-01-17 19:28:16 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 268, in load
+2018-01-17 19:28:16 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 332, in loads
+2018-01-17 19:28:16 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 339, in decode
+2018-01-17 19:28:16 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 357, in raw_decode
+2018-01-17 19:28:16 : json.decoder.JSONDecodeError: Expecting value: line 183 column 1 (char 4973)
+2018-01-17 19:28:16 : FINISHED PoC Appliance Setup
+2018-01-17 19:28:16 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 19:29:17 : STARTED PoC Appliance Setup
+2018-01-17 19:29:17 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 19:29:17 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 19:29:17 : Writing output to setupAppliance.log
+2018-01-17 19:29:17 : 
+2018-01-17 19:29:18 : Traceback (most recent call last):
+2018-01-17 19:29:18 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 19:29:18 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 19:29:18 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 19:29:18 : self._poc = Config(self._user, self._pwd)
+2018-01-17 19:29:18 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 19:29:18 : super(Config, self).__init__(self._si)
+2018-01-17 19:29:18 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 19:29:18 : self._bom = BOM()
+2018-01-17 19:29:18 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1153, in __init__
+2018-01-17 19:29:18 : self._bom = json.load(f, object_hook=byteify)
+2018-01-17 19:29:18 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 268, in load
+2018-01-17 19:29:18 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 332, in loads
+2018-01-17 19:29:18 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 339, in decode
+2018-01-17 19:29:18 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/decoder.py", line 357, in raw_decode
+2018-01-17 19:29:18 : json.decoder.JSONDecodeError: Expecting value: line 182 column 1 (char 4972)
+2018-01-17 19:29:18 : FINISHED PoC Appliance Setup
+2018-01-17 19:29:18 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 19:29:42 : STARTED PoC Appliance Setup
+2018-01-17 19:29:42 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 19:29:42 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 19:29:42 : Writing output to setupAppliance.log
+2018-01-17 19:29:42 : 
+2018-01-17 19:29:43 : Traceback (most recent call last):
+2018-01-17 19:29:43 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 19:29:43 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 19:29:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 19:29:43 : self._poc = Config(self._user, self._pwd)
+2018-01-17 19:29:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 19:29:43 : super(Config, self).__init__(self._si)
+2018-01-17 19:29:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 19:29:43 : self._bom = BOM()
+2018-01-17 19:29:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in __init__
+2018-01-17 19:29:43 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 19:29:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in <genexpr>
+2018-01-17 19:29:43 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 19:29:43 : KeyError: 'product'
+2018-01-17 19:29:43 : FINISHED PoC Appliance Setup
+2018-01-17 19:29:44 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 19:47:01 : STARTED PoC Appliance Setup
+2018-01-17 19:47:01 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 19:47:01 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 19:47:01 : Writing output to setupAppliance.log
+2018-01-17 19:47:01 : 
+2018-01-17 19:47:02 : Traceback (most recent call last):
+2018-01-17 19:47:02 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 19:47:02 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 19:47:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 19:47:02 : self._poc = Config(self._user, self._pwd)
+2018-01-17 19:47:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 19:47:02 : super(Config, self).__init__(self._si)
+2018-01-17 19:47:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 19:47:02 : self._bom = BOM()
+2018-01-17 19:47:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in __init__
+2018-01-17 19:47:02 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 19:47:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in <genexpr>
+2018-01-17 19:47:02 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 19:47:02 : KeyError: 'product'
+2018-01-17 19:47:02 : FINISHED PoC Appliance Setup
+2018-01-17 19:47:02 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 20:37:13 : STARTED PoC Appliance Setup
+2018-01-17 20:37:13 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 20:37:13 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 20:37:13 : Writing output to setupAppliance.log
+2018-01-17 20:37:13 : 
+2018-01-17 20:37:13 : Traceback (most recent call last):
+2018-01-17 20:37:13 : File "./setupAppliance.py", line 4, in <module>
+2018-01-17 20:37:13 : from POC import POCAdmin
+2018-01-17 20:37:13 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1154
+2018-01-17 20:37:13 : print self._bom
+2018-01-17 20:37:13 : ^
+2018-01-17 20:37:13 : SyntaxError: Missing parentheses in call to 'print'
+2018-01-17 20:37:13 : FINISHED PoC Appliance Setup
+2018-01-17 20:37:13 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 20:38:16 : STARTED PoC Appliance Setup
+2018-01-17 20:38:16 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 20:38:16 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 20:38:16 : Writing output to setupAppliance.log
+2018-01-17 20:38:16 : 
+2018-01-17 20:38:17 : [{b'vmx': b'Ansible Controller_1.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'Ansible Controller', b'ipVar': b'ANS_IP', b'suite': [b'PM'], b'archive': b'None.ova', b'hostname': b'ansible'}, {b'vmx': b'CA Application Delivery Analysis.vmx', b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Application Delivery Analysis', b'ipVar': b'ADA_IP', b'suite': [b'APM', b'IM'], b'archive': b'CA-ADA.tgz', b'hostname': b'ada'}, {b'vmx': b'CA APM.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA APM', b'ipVar': b'EM_IP', b'suite': [b'APM'], b'archive': b'CA-APM.ova', b'hostname': b'APM'}, {b'vmx': b'CA APM TIM.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA APM TIM', b'ipVar': b'TIM_IP', b'suite': [b'APM'], b'archive': b'CA-APM-TIM.ova', b'hostname': b'TIM'}, {b'vmx': b'CA Business Intelligence Reporter.vmx', b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Business Intelligence Reporter', b'ipVar': b'CABI_IP', b'suite': [b'PM', b'IM'], b'archive': b'CA-CABI.ova', b'hostname': b'CABI'}, {b'vmx': b'CA Experience Collector.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Experience Collector', b'ipVar': b'DXC_IP', b'suite': [b'PM', b'IM'], b'archive': b'CA-DXC.ova', b'hostname': b'DXC'}, {b'vmx': b'CA Data Aggregator.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Aggregator', b'ipVar': b'DA_IP', b'suite': [b'PM'], b'archive': b'CA-DA.ova', b'hostname': b'DA'}, {b'vmx': b'CA Performance Center.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Performance Center', b'ipVar': b'PC_IP', b'suite': [b'PM'], b'archive': b'CA-PC.ova', b'hostname': b'CAPC'}, {b'vmx': b'CA Data Repository.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Repository', b'ipVar': b'DR_IP', b'suite': [b'PM'], b'archive': b'CA-DR.ova', b'hostname': b'DR'}, {b'vmx': b'CA Data Collector.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Collector', b'ipVar': b'DC_IP', b'suite': [b'PM'], b'archive': b'CA-DC.ova', b'hostname': b'DC'}, {b'vmx': b'CA Network Flow Analysis.vmx', b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Network Flow Analysis', b'ipVar': b'NFA_IP', b'suite': [b'PM', b'IM'], b'archive': b'CA-NFA.tgz', b'hostname': b'NFA'}, {b'vmx': b'CA Spectrum SS and OC.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Spectrum SS and OC', b'ipVar': b'SPEC_IP', b'suite': [b'PM', b'IM'], b'archive': b'CA-Spectrum.ova', b'hostname': b'SPECTRUM'}, {b'vmx': b'CA Service Operations Insight.vmx', b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Service Operations Insight', b'ipVar': b'SOI_IP', b'suite': [b'APM', b'IM'], b'archive': b'CA-SOI.ova', b'hostname': b'SOI'}, {b'vmx': b'CA Unified Infrastructure Management.vmx', b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Unified Infrastructure Management', b'ipVar': b'UIM_IP', b'suite': [b'APM', b'IM'], b'archive': b'CA-UIM.ova', b'hostname': b'UIM'}, {b'vmx': b'CA Virtual Network Assurance.vmx', b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Virtual Network Assurance', b'ipVar': b'VNA_IP', b'suite': [b'IM', b'APM'], b'archive': b'CA-VNA.ova', b'hostname': b'VNA'}]
+2018-01-17 20:38:17 : Traceback (most recent call last):
+2018-01-17 20:38:17 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 20:38:17 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 20:38:17 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 20:38:17 : self._poc = Config(self._user, self._pwd)
+2018-01-17 20:38:17 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 20:38:17 : super(Config, self).__init__(self._si)
+2018-01-17 20:38:17 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 20:38:17 : self._bom = BOM()
+2018-01-17 20:38:17 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in __init__
+2018-01-17 20:38:17 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 20:38:17 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in <genexpr>
+2018-01-17 20:38:17 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 20:38:17 : KeyError: 'product'
+2018-01-17 20:38:17 : FINISHED PoC Appliance Setup
+2018-01-17 20:38:17 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:01:00 : STARTED PoC Appliance Setup
+2018-01-17 21:01:00 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:01:00 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:01:00 : Writing output to setupAppliance.log
+2018-01-17 21:01:00 : 
+2018-01-17 21:01:01 : [{b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'Ansible Controller', b'hostname': b'ansible', b'vmx': b'Ansible Controller_1.vmx', b'suite': [b'PM'], b'ipVar': b'ANS_IP', b'archive': b'None.ova'}, {b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Application Delivery Analysis', b'hostname': b'ada', b'vmx': b'CA Application Delivery Analysis.vmx', b'suite': [b'APM', b'IM'], b'ipVar': b'ADA_IP', b'archive': b'CA-ADA.tgz'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA APM', b'hostname': b'APM', b'vmx': b'CA APM.vmx', b'suite': [b'APM'], b'ipVar': b'EM_IP', b'archive': b'CA-APM.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA APM TIM', b'hostname': b'TIM', b'vmx': b'CA APM TIM.vmx', b'suite': [b'APM'], b'ipVar': b'TIM_IP', b'archive': b'CA-APM-TIM.ova'}, {b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Business Intelligence Reporter', b'hostname': b'CABI', b'vmx': b'CA Business Intelligence Reporter.vmx', b'suite': [b'PM', b'IM'], b'ipVar': b'CABI_IP', b'archive': b'CA-CABI.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Experience Collector', b'hostname': b'DXC', b'vmx': b'CA Experience Collector.vmx', b'suite': [b'PM', b'IM'], b'ipVar': b'DXC_IP', b'archive': b'CA-DXC.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Aggregator', b'hostname': b'DA', b'vmx': b'CA Data Aggregator.vmx', b'suite': [b'PM'], b'ipVar': b'DA_IP', b'archive': b'CA-DA.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Performance Center', b'hostname': b'CAPC', b'vmx': b'CA Performance Center.vmx', b'suite': [b'PM'], b'ipVar': b'PC_IP', b'archive': b'CA-PC.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Repository', b'hostname': b'DR', b'vmx': b'CA Data Repository.vmx', b'suite': [b'PM'], b'ipVar': b'DR_IP', b'archive': b'CA-DR.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Data Collector', b'hostname': b'DC', b'vmx': b'CA Data Collector.vmx', b'suite': [b'PM'], b'ipVar': b'DC_IP', b'archive': b'CA-DC.ova'}, {b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Network Flow Analysis', b'hostname': b'NFA', b'vmx': b'CA Network Flow Analysis.vmx', b'suite': [b'PM', b'IM'], b'ipVar': b'NFA_IP', b'archive': b'CA-NFA.tgz'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Spectrum SS and OC', b'hostname': b'SPECTRUM', b'vmx': b'CA Spectrum SS and OC.vmx', b'suite': [b'PM', b'IM'], b'ipVar': b'SPEC_IP', b'archive': b'CA-Spectrum.ova'}, {b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Service Operations Insight', b'hostname': b'SOI', b'vmx': b'CA Service Operations Insight.vmx', b'suite': [b'APM', b'IM'], b'ipVar': b'SOI_IP', b'archive': b'CA-SOI.ova'}, {b'authentication': {b'username': b'administrator', b'password': b'CAdemo123'}, b'product': b'CA Unified Infrastructure Management', b'hostname': b'UIM', b'vmx': b'CA Unified Infrastructure Management.vmx', b'suite': [b'APM', b'IM'], b'ipVar': b'UIM_IP', b'archive': b'CA-UIM.ova'}, {b'authentication': {b'username': b'root', b'password': b'CAdemo123'}, b'product': b'CA Virtual Network Assurance', b'hostname': b'VNA', b'vmx': b'CA Virtual Network Assurance.vmx', b'suite': [b'IM', b'APM'], b'ipVar': b'VNA_IP', b'archive': b'CA-VNA.ova'}]
+2018-01-17 21:01:01 : Traceback (most recent call last):
+2018-01-17 21:01:01 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 21:01:01 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 21:01:01 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 21:01:01 : self._poc = Config(self._user, self._pwd)
+2018-01-17 21:01:01 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 21:01:01 : super(Config, self).__init__(self._si)
+2018-01-17 21:01:01 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 21:01:01 : self._bom = BOM()
+2018-01-17 21:01:01 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in __init__
+2018-01-17 21:01:01 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:01:01 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in <genexpr>
+2018-01-17 21:01:01 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:01:01 : KeyError: 'product'
+2018-01-17 21:01:01 : FINISHED PoC Appliance Setup
+2018-01-17 21:01:01 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:03:08 : STARTED PoC Appliance Setup
+2018-01-17 21:03:08 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:03:09 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:03:09 : Writing output to setupAppliance.log
+2018-01-17 21:03:09 : 
+2018-01-17 21:03:09 : Traceback (most recent call last):
+2018-01-17 21:03:09 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 21:03:09 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 21:03:09 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1581, in __enter__
+2018-01-17 21:03:09 : self._poc = Config(self._user, self._pwd)
+2018-01-17 21:03:09 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1502, in __init__
+2018-01-17 21:03:10 : super(Config, self).__init__(self._si)
+2018-01-17 21:03:10 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 21:03:10 : self._bom = BOM()
+2018-01-17 21:03:10 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in __init__
+2018-01-17 21:03:10 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:03:10 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1156, in <genexpr>
+2018-01-17 21:03:10 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:03:10 : KeyError: 'product'
+2018-01-17 21:03:10 : FINISHED PoC Appliance Setup
+2018-01-17 21:03:10 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:04:38 : STARTED PoC Appliance Setup
+2018-01-17 21:04:38 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:04:38 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:04:38 : Writing output to setupAppliance.log
+2018-01-17 21:04:38 : 
+2018-01-17 21:04:40 : [{'hostname': 'ansible', 'product': 'Ansible Controller', 'archive': 'None.ova', 'vmx': 'Ansible Controller_1.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'ANS_IP', 'suite': ['PM']}, {'hostname': 'ada', 'product': 'CA Application Delivery Analysis', 'archive': 'CA-ADA.tgz', 'vmx': 'CA Application Delivery Analysis.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'ipVar': 'ADA_IP', 'suite': ['APM', 'IM']}, {'hostname': 'APM', 'product': 'CA APM', 'archive': 'CA-APM.ova', 'vmx': 'CA APM.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'EM_IP', 'suite': ['APM']}, {'hostname': 'TIM', 'product': 'CA APM TIM', 'archive': 'CA-APM-TIM.ova', 'vmx': 'CA APM TIM.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'TIM_IP', 'suite': ['APM']}, {'hostname': 'CABI', 'product': 'CA Business Intelligence Reporter', 'archive': 'CA-CABI.ova', 'vmx': 'CA Business Intelligence Reporter.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'ipVar': 'CABI_IP', 'suite': ['PM', 'IM']}, {'hostname': 'DXC', 'product': 'CA Experience Collector', 'archive': 'CA-DXC.ova', 'vmx': 'CA Experience Collector.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'DXC_IP', 'suite': ['PM', 'IM']}, {'hostname': 'DA', 'product': 'CA Data Aggregator', 'archive': 'CA-DA.ova', 'vmx': 'CA Data Aggregator.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'DA_IP', 'suite': ['PM']}, {'hostname': 'CAPC', 'product': 'CA Performance Center', 'archive': 'CA-PC.ova', 'vmx': 'CA Performance Center.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'PC_IP', 'suite': ['PM']}, {'hostname': 'DR', 'product': 'CA Data Repository', 'archive': 'CA-DR.ova', 'vmx': 'CA Data Repository.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'DR_IP', 'suite': ['PM']}, {'hostname': 'DC', 'product': 'CA Data Collector', 'archive': 'CA-DC.ova', 'vmx': 'CA Data Collector.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'DC_IP', 'suite': ['PM']}, {'hostname': 'NFA', 'product': 'CA Network Flow Analysis', 'archive': 'CA-NFA.tgz', 'vmx': 'CA Network Flow Analysis.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'ipVar': 'NFA_IP', 'suite': ['PM', 'IM']}, {'hostname': 'SPECTRUM', 'product': 'CA Spectrum SS and OC', 'archive': 'CA-Spectrum.ova', 'vmx': 'CA Spectrum SS and OC.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'SPEC_IP', 'suite': ['PM', 'IM']}, {'hostname': 'SOI', 'product': 'CA Service Operations Insight', 'archive': 'CA-SOI.ova', 'vmx': 'CA Service Operations Insight.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'ipVar': 'SOI_IP', 'suite': ['APM', 'IM']}, {'hostname': 'UIM', 'product': 'CA Unified Infrastructure Management', 'archive': 'CA-UIM.ova', 'vmx': 'CA Unified Infrastructure Management.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'ipVar': 'UIM_IP', 'suite': ['APM', 'IM']}, {'hostname': 'VNA', 'product': 'CA Virtual Network Assurance', 'archive': 'CA-VNA.ova', 'vmx': 'CA Virtual Network Assurance.vmx', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'ipVar': 'VNA_IP', 'suite': ['IM', 'APM']}]
+2018-01-17 21:04:40 : Importing information from setupAppliance.properties
+2018-01-17 21:04:40 : Host time: 2018-01-17 21:04:39.687226+00:00
+2018-01-17 21:04:40 : POC TZ: America/Chicago
+2018-01-17 21:04:40 : Default Gateway:
+2018-01-17 21:04:40 : Netmask:
+2018-01-17 21:04:40 : DNS Servers:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: Ansible Controller
+2018-01-17 21:04:40 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOn
+2018-01-17 21:04:40 : VM Tools: toolsOk
+2018-01-17 21:04:40 : Net State: guestNetReady
+2018-01-17 21:04:40 : IP Address: 10.242.81.27
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Business Intelligence Reporter
+2018-01-17 21:04:40 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 21:04:40 : Guest: windows8Server64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: VMware vCenter Server Appliance
+2018-01-17 21:04:40 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 21:04:40 : Guest: other3xLinux64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOn
+2018-01-17 21:04:40 : VM Tools: toolsOk
+2018-01-17 21:04:40 : Net State: guestNetReady
+2018-01-17 21:04:40 : IP Address: 10.242.81.37
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Performance Center
+2018-01-17 21:04:40 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Data Repository
+2018-01-17 21:04:40 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Data Aggregator
+2018-01-17 21:04:40 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Data Collector
+2018-01-17 21:04:40 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Spectrum SS and OC
+2018-01-17 21:04:40 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:40 : Net State: guestNetNotReady
+2018-01-17 21:04:40 : IP Address:
+2018-01-17 21:04:40 : 
+2018-01-17 21:04:40 : Name: CA Virtual Network Assurance
+2018-01-17 21:04:40 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 21:04:40 : Guest: centos7_64Guest
+2018-01-17 21:04:40 : State: Guest NOT ready
+2018-01-17 21:04:40 : Power: poweredOff
+2018-01-17 21:04:40 : VM Tools: toolsNotRunning
+2018-01-17 21:04:41 : Net State: guestNetNotReady
+2018-01-17 21:04:41 : IP Address:
+2018-01-17 21:04:41 : 
+2018-01-17 21:04:41 : Name: CA APM
+2018-01-17 21:04:41 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 21:04:41 : Guest: rhel7_64Guest
+2018-01-17 21:04:41 : State: Guest NOT ready
+2018-01-17 21:04:41 : Power: poweredOff
+2018-01-17 21:04:41 : VM Tools: toolsNotRunning
+2018-01-17 21:04:41 : Net State: guestNetNotReady
+2018-01-17 21:04:41 : IP Address:
+2018-01-17 21:04:41 : 
+2018-01-17 21:04:41 : Name: CA APM TIM
+2018-01-17 21:04:41 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 21:04:41 : Guest: centos6_64Guest
+2018-01-17 21:04:41 : State: Guest NOT ready
+2018-01-17 21:04:41 : Power: poweredOn
+2018-01-17 21:04:41 : VM Tools: toolsOk
+2018-01-17 21:04:41 : Net State: guestNetReady
+2018-01-17 21:04:41 : IP Address: 10.242.81.197
+2018-01-17 21:04:41 : 
+2018-01-17 21:04:41 : Name: CA Experience Collector
+2018-01-17 21:04:41 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 21:04:41 : Guest: centos7_64Guest
+2018-01-17 21:04:41 : State: Guest NOT ready
+2018-01-17 21:04:41 : Power: poweredOff
+2018-01-17 21:04:41 : VM Tools: toolsNotRunning
+2018-01-17 21:04:41 : Net State: guestNetReady
+2018-01-17 21:04:41 : IP Address:
+2018-01-17 21:04:41 : 
+2018-01-17 21:04:41 : Name: CA Application Delivery Analysis
+2018-01-17 21:04:41 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 21:04:41 : Guest: windows8Server64Guest
+2018-01-17 21:04:41 : State: Guest is ready
+2018-01-17 21:04:41 : Hostname: ADA
+2018-01-17 21:04:41 : IP Address: 10.242.81.114
+2018-01-17 21:04:41 : Traceback (most recent call last):
+2018-01-17 21:04:41 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 21:04:41 : poc.checkBuild(v)
+2018-01-17 21:04:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1419, in checkBuild
+2018-01-17 21:04:41 : return self._build == vm.getBuild(self._fm)
+2018-01-17 21:04:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 322, in getBuild
+2018-01-17 21:04:41 : data = json.loads(data, object_hook=byteify)
+2018-01-17 21:04:41 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 21:04:41 : TypeError: the JSON object must be str, not 'bytes'
+2018-01-17 21:04:41 : FINISHED PoC Appliance Setup
+2018-01-17 21:04:41 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:07:02 : STARTED PoC Appliance Setup
+2018-01-17 21:07:02 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:07:02 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:07:02 : Writing output to setupAppliance.log
+2018-01-17 21:07:02 : 
+2018-01-17 21:07:03 : [{'hostname': 'ansible', 'archive': 'None.ova', 'suite': ['PM'], 'product': 'Ansible Controller', 'ipVar': 'ANS_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'Ansible Controller_1.vmx'}, {'hostname': 'ada', 'archive': 'CA-ADA.tgz', 'suite': ['APM', 'IM'], 'product': 'CA Application Delivery Analysis', 'ipVar': 'ADA_IP', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'vmx': 'CA Application Delivery Analysis.vmx'}, {'hostname': 'APM', 'archive': 'CA-APM.ova', 'suite': ['APM'], 'product': 'CA APM', 'ipVar': 'EM_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA APM.vmx'}, {'hostname': 'TIM', 'archive': 'CA-APM-TIM.ova', 'suite': ['APM'], 'product': 'CA APM TIM', 'ipVar': 'TIM_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA APM TIM.vmx'}, {'hostname': 'CABI', 'archive': 'CA-CABI.ova', 'suite': ['PM', 'IM'], 'product': 'CA Business Intelligence Reporter', 'ipVar': 'CABI_IP', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'vmx': 'CA Business Intelligence Reporter.vmx'}, {'hostname': 'DXC', 'archive': 'CA-DXC.ova', 'suite': ['PM', 'IM'], 'product': 'CA Experience Collector', 'ipVar': 'DXC_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Experience Collector.vmx'}, {'hostname': 'DA', 'archive': 'CA-DA.ova', 'suite': ['PM'], 'product': 'CA Data Aggregator', 'ipVar': 'DA_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Data Aggregator.vmx'}, {'hostname': 'CAPC', 'archive': 'CA-PC.ova', 'suite': ['PM'], 'product': 'CA Performance Center', 'ipVar': 'PC_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Performance Center.vmx'}, {'hostname': 'DR', 'archive': 'CA-DR.ova', 'suite': ['PM'], 'product': 'CA Data Repository', 'ipVar': 'DR_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Data Repository.vmx'}, {'hostname': 'DC', 'archive': 'CA-DC.ova', 'suite': ['PM'], 'product': 'CA Data Collector', 'ipVar': 'DC_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Data Collector.vmx'}, {'hostname': 'NFA', 'archive': 'CA-NFA.tgz', 'suite': ['PM', 'IM'], 'product': 'CA Network Flow Analysis', 'ipVar': 'NFA_IP', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'vmx': 'CA Network Flow Analysis.vmx'}, {'hostname': 'SPECTRUM', 'archive': 'CA-Spectrum.ova', 'suite': ['PM', 'IM'], 'product': 'CA Spectrum SS and OC', 'ipVar': 'SPEC_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Spectrum SS and OC.vmx'}, {'hostname': 'SOI', 'archive': 'CA-SOI.ova', 'suite': ['APM', 'IM'], 'product': 'CA Service Operations Insight', 'ipVar': 'SOI_IP', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'vmx': 'CA Service Operations Insight.vmx'}, {'hostname': 'UIM', 'archive': 'CA-UIM.ova', 'suite': ['APM', 'IM'], 'product': 'CA Unified Infrastructure Management', 'ipVar': 'UIM_IP', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'vmx': 'CA Unified Infrastructure Management.vmx'}, {'hostname': 'VNA', 'archive': 'CA-VNA.ova', 'suite': ['IM', 'APM'], 'product': 'CA Virtual Network Assurance', 'ipVar': 'VNA_IP', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'vmx': 'CA Virtual Network Assurance.vmx'}]
+2018-01-17 21:07:03 : Importing information from setupAppliance.properties
+2018-01-17 21:07:03 : Host time: 2018-01-17 21:07:03.125212+00:00
+2018-01-17 21:07:03 : POC TZ: America/Chicago
+2018-01-17 21:07:03 : Default Gateway:
+2018-01-17 21:07:03 : Netmask:
+2018-01-17 21:07:03 : DNS Servers:
+2018-01-17 21:07:03 : 
+2018-01-17 21:07:03 : Name: Ansible Controller
+2018-01-17 21:07:03 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 21:07:03 : Guest: centos7_64Guest
+2018-01-17 21:07:03 : State: Guest NOT ready
+2018-01-17 21:07:03 : Power: poweredOn
+2018-01-17 21:07:03 : VM Tools: toolsOk
+2018-01-17 21:07:03 : Net State: guestNetReady
+2018-01-17 21:07:03 : IP Address: 10.242.81.27
+2018-01-17 21:07:03 : 
+2018-01-17 21:07:03 : Name: CA Business Intelligence Reporter
+2018-01-17 21:07:03 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 21:07:03 : Guest: windows8Server64Guest
+2018-01-17 21:07:03 : State: Guest NOT ready
+2018-01-17 21:07:03 : Power: poweredOff
+2018-01-17 21:07:03 : VM Tools: toolsNotRunning
+2018-01-17 21:07:03 : Net State: guestNetNotReady
+2018-01-17 21:07:03 : IP Address:
+2018-01-17 21:07:03 : 
+2018-01-17 21:07:03 : Name: VMware vCenter Server Appliance
+2018-01-17 21:07:03 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 21:07:03 : Guest: other3xLinux64Guest
+2018-01-17 21:07:03 : State: Guest NOT ready
+2018-01-17 21:07:03 : Power: poweredOn
+2018-01-17 21:07:03 : VM Tools: toolsOk
+2018-01-17 21:07:03 : Net State: guestNetReady
+2018-01-17 21:07:03 : IP Address: 10.242.81.37
+2018-01-17 21:07:03 : 
+2018-01-17 21:07:03 : Name: CA Performance Center
+2018-01-17 21:07:03 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 21:07:03 : Guest: centos7_64Guest
+2018-01-17 21:07:03 : State: Guest NOT ready
+2018-01-17 21:07:03 : Power: poweredOff
+2018-01-17 21:07:03 : VM Tools: toolsNotRunning
+2018-01-17 21:07:03 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Data Repository
+2018-01-17 21:07:04 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Data Aggregator
+2018-01-17 21:07:04 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Data Collector
+2018-01-17 21:07:04 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Spectrum SS and OC
+2018-01-17 21:07:04 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Virtual Network Assurance
+2018-01-17 21:07:04 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA APM
+2018-01-17 21:07:04 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 21:07:04 : Guest: rhel7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetNotReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA APM TIM
+2018-01-17 21:07:04 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 21:07:04 : Guest: centos6_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOn
+2018-01-17 21:07:04 : VM Tools: toolsOk
+2018-01-17 21:07:04 : Net State: guestNetReady
+2018-01-17 21:07:04 : IP Address: 10.242.81.197
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Experience Collector
+2018-01-17 21:07:04 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 21:07:04 : Guest: centos7_64Guest
+2018-01-17 21:07:04 : State: Guest NOT ready
+2018-01-17 21:07:04 : Power: poweredOff
+2018-01-17 21:07:04 : VM Tools: toolsNotRunning
+2018-01-17 21:07:04 : Net State: guestNetReady
+2018-01-17 21:07:04 : IP Address:
+2018-01-17 21:07:04 : 
+2018-01-17 21:07:04 : Name: CA Application Delivery Analysis
+2018-01-17 21:07:04 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 21:07:04 : Guest: windows8Server64Guest
+2018-01-17 21:07:04 : State: Guest is ready
+2018-01-17 21:07:04 : Hostname: ADA
+2018-01-17 21:07:04 : IP Address: 10.242.81.114
+2018-01-17 21:07:04 : Traceback (most recent call last):
+2018-01-17 21:07:04 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 21:07:04 : poc.checkBuild(v)
+2018-01-17 21:07:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1419, in checkBuild
+2018-01-17 21:07:04 : return self._build == vm.getBuild(self._fm)
+2018-01-17 21:07:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 322, in getBuild
+2018-01-17 21:07:05 : data = json.loads(data) #, object_hook=byteify)
+2018-01-17 21:07:05 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 21:07:05 : TypeError: the JSON object must be str, not 'bytes'
+2018-01-17 21:07:05 : FINISHED PoC Appliance Setup
+2018-01-17 21:07:05 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:14:41 : STARTED PoC Appliance Setup
+2018-01-17 21:14:41 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:14:41 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:14:41 : Writing output to setupAppliance.log
+2018-01-17 21:14:41 : 
+2018-01-17 21:14:42 : [{'vmx': 'Ansible Controller_1.vmx', 'hostname': 'ansible', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'Ansible Controller', 'archive': 'None.ova', 'suite': ['PM'], 'ipVar': 'ANS_IP'}, {'vmx': 'CA Application Delivery Analysis.vmx', 'hostname': 'ada', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'product': 'CA Application Delivery Analysis', 'archive': 'CA-ADA.tgz', 'suite': ['APM', 'IM'], 'ipVar': 'ADA_IP'}, {'vmx': 'CA APM.vmx', 'hostname': 'APM', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA APM', 'archive': 'CA-APM.ova', 'suite': ['APM'], 'ipVar': 'EM_IP'}, {'vmx': 'CA APM TIM.vmx', 'hostname': 'TIM', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA APM TIM', 'archive': 'CA-APM-TIM.ova', 'suite': ['APM'], 'ipVar': 'TIM_IP'}, {'vmx': 'CA Business Intelligence Reporter.vmx', 'hostname': 'CABI', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'product': 'CA Business Intelligence Reporter', 'archive': 'CA-CABI.ova', 'suite': ['PM', 'IM'], 'ipVar': 'CABI_IP'}, {'vmx': 'CA Experience Collector.vmx', 'hostname': 'DXC', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Experience Collector', 'archive': 'CA-DXC.ova', 'suite': ['PM', 'IM'], 'ipVar': 'DXC_IP'}, {'vmx': 'CA Data Aggregator.vmx', 'hostname': 'DA', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Data Aggregator', 'archive': 'CA-DA.ova', 'suite': ['PM'], 'ipVar': 'DA_IP'}, {'vmx': 'CA Performance Center.vmx', 'hostname': 'CAPC', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Performance Center', 'archive': 'CA-PC.ova', 'suite': ['PM'], 'ipVar': 'PC_IP'}, {'vmx': 'CA Data Repository.vmx', 'hostname': 'DR', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Data Repository', 'archive': 'CA-DR.ova', 'suite': ['PM'], 'ipVar': 'DR_IP'}, {'vmx': 'CA Data Collector.vmx', 'hostname': 'DC', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Data Collector', 'archive': 'CA-DC.ova', 'suite': ['PM'], 'ipVar': 'DC_IP'}, {'vmx': 'CA Network Flow Analysis.vmx', 'hostname': 'NFA', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'product': 'CA Network Flow Analysis', 'archive': 'CA-NFA.tgz', 'suite': ['PM', 'IM'], 'ipVar': 'NFA_IP'}, {'vmx': 'CA Spectrum SS and OC.vmx', 'hostname': 'SPECTRUM', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Spectrum SS and OC', 'archive': 'CA-Spectrum.ova', 'suite': ['PM', 'IM'], 'ipVar': 'SPEC_IP'}, {'vmx': 'CA Service Operations Insight.vmx', 'hostname': 'SOI', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'product': 'CA Service Operations Insight', 'archive': 'CA-SOI.ova', 'suite': ['APM', 'IM'], 'ipVar': 'SOI_IP'}, {'vmx': 'CA Unified Infrastructure Management.vmx', 'hostname': 'UIM', 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}, 'product': 'CA Unified Infrastructure Management', 'archive': 'CA-UIM.ova', 'suite': ['APM', 'IM'], 'ipVar': 'UIM_IP'}, {'vmx': 'CA Virtual Network Assurance.vmx', 'hostname': 'VNA', 'authentication': {'password': 'CAdemo123', 'username': 'root'}, 'product': 'CA Virtual Network Assurance', 'archive': 'CA-VNA.ova', 'suite': ['IM', 'APM'], 'ipVar': 'VNA_IP'}]
+2018-01-17 21:14:42 : Importing information from setupAppliance.properties
+2018-01-17 21:14:42 : Host time: 2018-01-17 21:14:42.042427+00:00
+2018-01-17 21:14:42 : POC TZ: America/Chicago
+2018-01-17 21:14:42 : Default Gateway:
+2018-01-17 21:14:42 : Netmask:
+2018-01-17 21:14:42 : DNS Servers:
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: Ansible Controller
+2018-01-17 21:14:42 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 21:14:42 : Guest: centos7_64Guest
+2018-01-17 21:14:42 : State: Guest NOT ready
+2018-01-17 21:14:42 : Power: poweredOn
+2018-01-17 21:14:42 : VM Tools: toolsOk
+2018-01-17 21:14:42 : Net State: guestNetReady
+2018-01-17 21:14:42 : IP Address: 10.242.81.27
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: CA Business Intelligence Reporter
+2018-01-17 21:14:42 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 21:14:42 : Guest: windows8Server64Guest
+2018-01-17 21:14:42 : State: Guest NOT ready
+2018-01-17 21:14:42 : Power: poweredOff
+2018-01-17 21:14:42 : VM Tools: toolsNotRunning
+2018-01-17 21:14:42 : Net State: guestNetNotReady
+2018-01-17 21:14:42 : IP Address:
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: VMware vCenter Server Appliance
+2018-01-17 21:14:42 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 21:14:42 : Guest: other3xLinux64Guest
+2018-01-17 21:14:42 : State: Guest NOT ready
+2018-01-17 21:14:42 : Power: poweredOn
+2018-01-17 21:14:42 : VM Tools: toolsOk
+2018-01-17 21:14:42 : Net State: guestNetReady
+2018-01-17 21:14:42 : IP Address: 10.242.81.37
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: CA Performance Center
+2018-01-17 21:14:42 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 21:14:42 : Guest: centos7_64Guest
+2018-01-17 21:14:42 : State: Guest NOT ready
+2018-01-17 21:14:42 : Power: poweredOff
+2018-01-17 21:14:42 : VM Tools: toolsNotRunning
+2018-01-17 21:14:42 : Net State: guestNetNotReady
+2018-01-17 21:14:42 : IP Address:
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: CA Data Repository
+2018-01-17 21:14:42 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 21:14:42 : Guest: centos7_64Guest
+2018-01-17 21:14:42 : State: Guest NOT ready
+2018-01-17 21:14:42 : Power: poweredOff
+2018-01-17 21:14:42 : VM Tools: toolsNotRunning
+2018-01-17 21:14:42 : Net State: guestNetNotReady
+2018-01-17 21:14:42 : IP Address:
+2018-01-17 21:14:42 : 
+2018-01-17 21:14:42 : Name: CA Data Aggregator
+2018-01-17 21:14:42 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 21:14:42 : Guest: centos7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetNotReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA Data Collector
+2018-01-17 21:14:43 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 21:14:43 : Guest: centos7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetNotReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA Spectrum SS and OC
+2018-01-17 21:14:43 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 21:14:43 : Guest: centos7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetNotReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA Virtual Network Assurance
+2018-01-17 21:14:43 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 21:14:43 : Guest: centos7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetNotReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA APM
+2018-01-17 21:14:43 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 21:14:43 : Guest: rhel7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetNotReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA APM TIM
+2018-01-17 21:14:43 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 21:14:43 : Guest: centos6_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOn
+2018-01-17 21:14:43 : VM Tools: toolsOk
+2018-01-17 21:14:43 : Net State: guestNetReady
+2018-01-17 21:14:43 : IP Address: 10.242.81.197
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA Experience Collector
+2018-01-17 21:14:43 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 21:14:43 : Guest: centos7_64Guest
+2018-01-17 21:14:43 : State: Guest NOT ready
+2018-01-17 21:14:43 : Power: poweredOff
+2018-01-17 21:14:43 : VM Tools: toolsNotRunning
+2018-01-17 21:14:43 : Net State: guestNetReady
+2018-01-17 21:14:43 : IP Address:
+2018-01-17 21:14:43 : 
+2018-01-17 21:14:43 : Name: CA Application Delivery Analysis
+2018-01-17 21:14:43 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 21:14:43 : Guest: windows8Server64Guest
+2018-01-17 21:14:43 : State: Guest is ready
+2018-01-17 21:14:43 : Hostname: ADA
+2018-01-17 21:14:43 : IP Address: 10.242.81.114
+2018-01-17 21:14:43 : Traceback (most recent call last):
+2018-01-17 21:14:43 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 21:14:43 : poc.checkBuild(v)
+2018-01-17 21:14:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1419, in checkBuild
+2018-01-17 21:14:43 : return self._build == vm.getBuild(self._fm)
+2018-01-17 21:14:43 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 322, in getBuild
+2018-01-17 21:14:43 : data = response.json(data) #, object_hook=byteify)
+2018-01-17 21:14:43 : NameError: name 'response' is not defined
+2018-01-17 21:14:43 : FINISHED PoC Appliance Setup
+2018-01-17 21:14:43 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:19:16 : STARTED PoC Appliance Setup
+2018-01-17 21:19:16 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:19:16 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:19:16 : Writing output to setupAppliance.log
+2018-01-17 21:19:16 : 
+2018-01-17 21:19:16 : Traceback (most recent call last):
+2018-01-17 21:19:16 : File "./setupAppliance.py", line 4, in <module>
+2018-01-17 21:19:16 : from POC import POCAdmin
+2018-01-17 21:19:16 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 7, in <module>
+2018-01-17 21:19:16 : import requests
+2018-01-17 21:19:16 : ImportError: No module named 'requests'
+2018-01-17 21:19:16 : FINISHED PoC Appliance Setup
+2018-01-17 21:19:16 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 21:53:02 : STARTED PoC Appliance Setup
+2018-01-17 21:53:02 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 21:53:02 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 21:53:03 : Writing output to setupAppliance.log
+2018-01-17 21:53:03 : 
+2018-01-17 21:53:03 : [{b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'None.ova', b'ipVar': b'ANS_IP', b'vmx': b'Ansible Controller_1.vmx', b'suite': [b'PM'], b'product': b'Ansible Controller', b'hostname': b'ansible'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-ADA.tgz', b'ipVar': b'ADA_IP', b'vmx': b'CA Application Delivery Analysis.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Application Delivery Analysis', b'hostname': b'ada'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-APM.ova', b'ipVar': b'EM_IP', b'vmx': b'CA APM.vmx', b'suite': [b'APM'], b'product': b'CA APM', b'hostname': b'APM'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-APM-TIM.ova', b'ipVar': b'TIM_IP', b'vmx': b'CA APM TIM.vmx', b'suite': [b'APM'], b'product': b'CA APM TIM', b'hostname': b'TIM'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-CABI.ova', b'ipVar': b'CABI_IP', b'vmx': b'CA Business Intelligence Reporter.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Business Intelligence Reporter', b'hostname': b'CABI'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DXC.ova', b'ipVar': b'DXC_IP', b'vmx': b'CA Experience Collector.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Experience Collector', b'hostname': b'DXC'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DA.ova', b'ipVar': b'DA_IP', b'vmx': b'CA Data Aggregator.vmx', b'suite': [b'PM'], b'product': b'CA Data Aggregator', b'hostname': b'DA'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-PC.ova', b'ipVar': b'PC_IP', b'vmx': b'CA Performance Center.vmx', b'suite': [b'PM'], b'product': b'CA Performance Center', b'hostname': b'CAPC'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DR.ova', b'ipVar': b'DR_IP', b'vmx': b'CA Data Repository.vmx', b'suite': [b'PM'], b'product': b'CA Data Repository', b'hostname': b'DR'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DC.ova', b'ipVar': b'DC_IP', b'vmx': b'CA Data Collector.vmx', b'suite': [b'PM'], b'product': b'CA Data Collector', b'hostname': b'DC'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-NFA.tgz', b'ipVar': b'NFA_IP', b'vmx': b'CA Network Flow Analysis.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Network Flow Analysis', b'hostname': b'NFA'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-Spectrum.ova', b'ipVar': b'SPEC_IP', b'vmx': b'CA Spectrum SS and OC.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Spectrum SS and OC', b'hostname': b'SPECTRUM'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-SOI.ova', b'ipVar': b'SOI_IP', b'vmx': b'CA Service Operations Insight.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Service Operations Insight', b'hostname': b'SOI'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-UIM.ova', b'ipVar': b'UIM_IP', b'vmx': b'CA Unified Infrastructure Management.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Unified Infrastructure Management', b'hostname': b'UIM'}, {b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-VNA.ova', b'ipVar': b'VNA_IP', b'vmx': b'CA Virtual Network Assurance.vmx', b'suite': [b'IM', b'APM'], b'product': b'CA Virtual Network Assurance', b'hostname': b'VNA'}]
+2018-01-17 21:53:04 : Traceback (most recent call last):
+2018-01-17 21:53:04 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 21:53:04 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 21:53:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1582, in __enter__
+2018-01-17 21:53:04 : self._poc = Config(self._user, self._pwd)
+2018-01-17 21:53:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1503, in __init__
+2018-01-17 21:53:04 : super(Config, self).__init__(self._si)
+2018-01-17 21:53:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1192, in __init__
+2018-01-17 21:53:04 : self._bom = BOM()
+2018-01-17 21:53:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1157, in __init__
+2018-01-17 21:53:04 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:53:04 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1157, in <genexpr>
+2018-01-17 21:53:04 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 21:53:04 : KeyError: 'product'
+2018-01-17 21:53:04 : FINISHED PoC Appliance Setup
+2018-01-17 21:53:04 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:16:07 : STARTED PoC Appliance Setup
+2018-01-17 23:16:07 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:16:07 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:16:07 : Writing output to setupAppliance.log
+2018-01-17 23:16:07 : 
+2018-01-17 23:16:08 : [{b'vmx': b'Ansible Controller_1.vmx', b'suite': [b'PM'], b'product': b'Ansible Controller', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'None.ova', b'ipVar': b'ANS_IP', b'hostname': b'ansible'}, {b'vmx': b'CA Application Delivery Analysis.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Application Delivery Analysis', b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-ADA.tgz', b'ipVar': b'ADA_IP', b'hostname': b'ada'}, {b'vmx': b'CA APM.vmx', b'suite': [b'APM'], b'product': b'CA APM', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-APM.ova', b'ipVar': b'EM_IP', b'hostname': b'APM'}, {b'vmx': b'CA APM TIM.vmx', b'suite': [b'APM'], b'product': b'CA APM TIM', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-APM-TIM.ova', b'ipVar': b'TIM_IP', b'hostname': b'TIM'}, {b'vmx': b'CA Business Intelligence Reporter.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Business Intelligence Reporter', b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-CABI.ova', b'ipVar': b'CABI_IP', b'hostname': b'CABI'}, {b'vmx': b'CA Experience Collector.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Experience Collector', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DXC.ova', b'ipVar': b'DXC_IP', b'hostname': b'DXC'}, {b'vmx': b'CA Data Aggregator.vmx', b'suite': [b'PM'], b'product': b'CA Data Aggregator', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DA.ova', b'ipVar': b'DA_IP', b'hostname': b'DA'}, {b'vmx': b'CA Performance Center.vmx', b'suite': [b'PM'], b'product': b'CA Performance Center', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-PC.ova', b'ipVar': b'PC_IP', b'hostname': b'CAPC'}, {b'vmx': b'CA Data Repository.vmx', b'suite': [b'PM'], b'product': b'CA Data Repository', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DR.ova', b'ipVar': b'DR_IP', b'hostname': b'DR'}, {b'vmx': b'CA Data Collector.vmx', b'suite': [b'PM'], b'product': b'CA Data Collector', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-DC.ova', b'ipVar': b'DC_IP', b'hostname': b'DC'}, {b'vmx': b'CA Network Flow Analysis.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Network Flow Analysis', b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-NFA.tgz', b'ipVar': b'NFA_IP', b'hostname': b'NFA'}, {b'vmx': b'CA Spectrum SS and OC.vmx', b'suite': [b'PM', b'IM'], b'product': b'CA Spectrum SS and OC', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-Spectrum.ova', b'ipVar': b'SPEC_IP', b'hostname': b'SPECTRUM'}, {b'vmx': b'CA Service Operations Insight.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Service Operations Insight', b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-SOI.ova', b'ipVar': b'SOI_IP', b'hostname': b'SOI'}, {b'vmx': b'CA Unified Infrastructure Management.vmx', b'suite': [b'APM', b'IM'], b'product': b'CA Unified Infrastructure Management', b'authentication': {b'password': b'CAdemo123', b'username': b'administrator'}, b'archive': b'CA-UIM.ova', b'ipVar': b'UIM_IP', b'hostname': b'UIM'}, {b'vmx': b'CA Virtual Network Assurance.vmx', b'suite': [b'IM', b'APM'], b'product': b'CA Virtual Network Assurance', b'authentication': {b'password': b'CAdemo123', b'username': b'root'}, b'archive': b'CA-VNA.ova', b'ipVar': b'VNA_IP', b'hostname': b'VNA'}]
+2018-01-17 23:16:08 : Traceback (most recent call last):
+2018-01-17 23:16:08 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 23:16:08 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 23:16:08 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1582, in __enter__
+2018-01-17 23:16:08 : self._poc = Config(self._user, self._pwd)
+2018-01-17 23:16:08 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1503, in __init__
+2018-01-17 23:16:08 : super(Config, self).__init__(self._si)
+2018-01-17 23:16:08 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1192, in __init__
+2018-01-17 23:16:08 : self._bom = BOM()
+2018-01-17 23:16:08 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1157, in __init__
+2018-01-17 23:16:08 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 23:16:08 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1157, in <genexpr>
+2018-01-17 23:16:08 : self._view = dict( (v["product"], v) for v in self._bom )
+2018-01-17 23:16:08 : KeyError: 'product'
+2018-01-17 23:16:08 : FINISHED PoC Appliance Setup
+2018-01-17 23:16:08 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:35:59 : STARTED PoC Appliance Setup
+2018-01-17 23:35:59 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:35:59 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:35:59 : Writing output to setupAppliance.log
+2018-01-17 23:35:59 : 
+2018-01-17 23:36:00 : [{'vmx': 'Ansible Controller_1.vmx', 'ipVar': 'ANS_IP', 'archive': 'None.ova', 'product': 'Ansible Controller', 'hostname': 'ansible', 'suite': ['PM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Application Delivery Analysis.vmx', 'ipVar': 'ADA_IP', 'archive': 'CA-ADA.tgz', 'product': 'CA Application Delivery Analysis', 'hostname': 'ada', 'suite': ['APM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}}, {'vmx': 'CA APM.vmx', 'ipVar': 'EM_IP', 'archive': 'CA-APM.ova', 'product': 'CA APM', 'hostname': 'APM', 'suite': ['APM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA APM TIM.vmx', 'ipVar': 'TIM_IP', 'archive': 'CA-APM-TIM.ova', 'product': 'CA APM TIM', 'hostname': 'TIM', 'suite': ['APM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Business Intelligence Reporter.vmx', 'ipVar': 'CABI_IP', 'archive': 'CA-CABI.ova', 'product': 'CA Business Intelligence Reporter', 'hostname': 'CABI', 'suite': ['PM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}}, {'vmx': 'CA Experience Collector.vmx', 'ipVar': 'DXC_IP', 'archive': 'CA-DXC.ova', 'product': 'CA Experience Collector', 'hostname': 'DXC', 'suite': ['PM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Data Aggregator.vmx', 'ipVar': 'DA_IP', 'archive': 'CA-DA.ova', 'product': 'CA Data Aggregator', 'hostname': 'DA', 'suite': ['PM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Performance Center.vmx', 'ipVar': 'PC_IP', 'archive': 'CA-PC.ova', 'product': 'CA Performance Center', 'hostname': 'CAPC', 'suite': ['PM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Data Repository.vmx', 'ipVar': 'DR_IP', 'archive': 'CA-DR.ova', 'product': 'CA Data Repository', 'hostname': 'DR', 'suite': ['PM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Data Collector.vmx', 'ipVar': 'DC_IP', 'archive': 'CA-DC.ova', 'product': 'CA Data Collector', 'hostname': 'DC', 'suite': ['PM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Network Flow Analysis.vmx', 'ipVar': 'NFA_IP', 'archive': 'CA-NFA.tgz', 'product': 'CA Network Flow Analysis', 'hostname': 'NFA', 'suite': ['PM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}}, {'vmx': 'CA Spectrum SS and OC.vmx', 'ipVar': 'SPEC_IP', 'archive': 'CA-Spectrum.ova', 'product': 'CA Spectrum SS and OC', 'hostname': 'SPECTRUM', 'suite': ['PM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}, {'vmx': 'CA Service Operations Insight.vmx', 'ipVar': 'SOI_IP', 'archive': 'CA-SOI.ova', 'product': 'CA Service Operations Insight', 'hostname': 'SOI', 'suite': ['APM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}}, {'vmx': 'CA Unified Infrastructure Management.vmx', 'ipVar': 'UIM_IP', 'archive': 'CA-UIM.ova', 'product': 'CA Unified Infrastructure Management', 'hostname': 'UIM', 'suite': ['APM', 'IM'], 'authentication': {'password': 'CAdemo123', 'username': 'administrator'}}, {'vmx': 'CA Virtual Network Assurance.vmx', 'ipVar': 'VNA_IP', 'archive': 'CA-VNA.ova', 'product': 'CA Virtual Network Assurance', 'hostname': 'VNA', 'suite': ['IM', 'APM'], 'authentication': {'password': 'CAdemo123', 'username': 'root'}}]
+2018-01-17 23:36:00 : Importing information from setupAppliance.properties
+2018-01-17 23:36:00 : Host time: 2018-01-17 23:36:00.284948+00:00
+2018-01-17 23:36:00 : POC TZ: America/Chicago
+2018-01-17 23:36:00 : Default Gateway:
+2018-01-17 23:36:00 : Netmask:
+2018-01-17 23:36:00 : DNS Servers:
+2018-01-17 23:36:00 : 
+2018-01-17 23:36:00 : Name: Ansible Controller
+2018-01-17 23:36:00 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 23:36:00 : Guest: centos7_64Guest
+2018-01-17 23:36:00 : State: Guest NOT ready
+2018-01-17 23:36:00 : Power: poweredOn
+2018-01-17 23:36:00 : VM Tools: toolsOk
+2018-01-17 23:36:00 : Net State: guestNetReady
+2018-01-17 23:36:00 : IP Address: 10.242.81.27
+2018-01-17 23:36:00 : 
+2018-01-17 23:36:00 : Name: CA Business Intelligence Reporter
+2018-01-17 23:36:00 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 23:36:00 : Guest: windows8Server64Guest
+2018-01-17 23:36:00 : State: Guest NOT ready
+2018-01-17 23:36:00 : Power: poweredOff
+2018-01-17 23:36:00 : VM Tools: toolsNotRunning
+2018-01-17 23:36:00 : Net State: guestNetNotReady
+2018-01-17 23:36:00 : IP Address:
+2018-01-17 23:36:00 : 
+2018-01-17 23:36:00 : Name: VMware vCenter Server Appliance
+2018-01-17 23:36:00 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 23:36:00 : Guest: other3xLinux64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOn
+2018-01-17 23:36:01 : VM Tools: toolsOk
+2018-01-17 23:36:01 : Net State: guestNetReady
+2018-01-17 23:36:01 : IP Address: 10.242.81.37
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Performance Center
+2018-01-17 23:36:01 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Data Repository
+2018-01-17 23:36:01 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Data Aggregator
+2018-01-17 23:36:01 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Data Collector
+2018-01-17 23:36:01 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Spectrum SS and OC
+2018-01-17 23:36:01 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Virtual Network Assurance
+2018-01-17 23:36:01 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA APM
+2018-01-17 23:36:01 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 23:36:01 : Guest: rhel7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetNotReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA APM TIM
+2018-01-17 23:36:01 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 23:36:01 : Guest: centos6_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOn
+2018-01-17 23:36:01 : VM Tools: toolsOk
+2018-01-17 23:36:01 : Net State: guestNetReady
+2018-01-17 23:36:01 : IP Address: 10.242.81.197
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Experience Collector
+2018-01-17 23:36:01 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 23:36:01 : Guest: centos7_64Guest
+2018-01-17 23:36:01 : State: Guest NOT ready
+2018-01-17 23:36:01 : Power: poweredOff
+2018-01-17 23:36:01 : VM Tools: toolsNotRunning
+2018-01-17 23:36:01 : Net State: guestNetReady
+2018-01-17 23:36:01 : IP Address:
+2018-01-17 23:36:01 : 
+2018-01-17 23:36:01 : Name: CA Application Delivery Analysis
+2018-01-17 23:36:01 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 23:36:01 : Guest: windows8Server64Guest
+2018-01-17 23:36:01 : State: Guest is ready
+2018-01-17 23:36:01 : Hostname: ADA
+2018-01-17 23:36:01 : IP Address: 10.242.81.114
+2018-01-17 23:36:01 : Traceback (most recent call last):
+2018-01-17 23:36:02 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 23:36:02 : poc.checkBuild(v)
+2018-01-17 23:36:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1421, in checkBuild
+2018-01-17 23:36:02 : return self._build == vm.getBuild(self._fm)
+2018-01-17 23:36:02 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 324, in getBuild
+2018-01-17 23:36:02 : data = json.load(data) #, object_hook=byteify)
+2018-01-17 23:36:02 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 265, in load
+2018-01-17 23:36:02 : AttributeError: 'bytes' object has no attribute 'read'
+2018-01-17 23:36:02 : FINISHED PoC Appliance Setup
+2018-01-17 23:36:02 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:41:25 : STARTED PoC Appliance Setup
+2018-01-17 23:41:25 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:41:25 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:41:25 : Writing output to setupAppliance.log
+2018-01-17 23:41:25 : 
+2018-01-17 23:41:25 : Traceback (most recent call last):
+2018-01-17 23:41:26 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 23:41:26 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 23:41:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1583, in __enter__
+2018-01-17 23:41:26 : self._poc = Config(self._user, self._pwd)
+2018-01-17 23:41:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1504, in __init__
+2018-01-17 23:41:26 : super(Config, self).__init__(self._si)
+2018-01-17 23:41:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 23:41:26 : self._load_config()
+2018-01-17 23:41:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1201, in _load_config
+2018-01-17 23:41:26 : build = json.loads(fh) #, object_hook=byteify)
+2018-01-17 23:41:26 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 23:41:26 : TypeError: the JSON object must be str, not 'TextIOWrapper'
+2018-01-17 23:41:26 : FINISHED PoC Appliance Setup
+2018-01-17 23:41:26 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:42:40 : STARTED PoC Appliance Setup
+2018-01-17 23:42:40 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:42:40 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:42:40 : Writing output to setupAppliance.log
+2018-01-17 23:42:40 : 
+2018-01-17 23:42:41 : Traceback (most recent call last):
+2018-01-17 23:42:41 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 23:42:41 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 23:42:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1583, in __enter__
+2018-01-17 23:42:41 : self._poc = Config(self._user, self._pwd)
+2018-01-17 23:42:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1504, in __init__
+2018-01-17 23:42:41 : super(Config, self).__init__(self._si)
+2018-01-17 23:42:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1191, in __init__
+2018-01-17 23:42:41 : self._load_config()
+2018-01-17 23:42:41 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1201, in _load_config
+2018-01-17 23:42:41 : build = json.loads(fh) #, object_hook=byteify)
+2018-01-17 23:42:41 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 23:42:41 : TypeError: the JSON object must be str, not 'TextIOWrapper'
+2018-01-17 23:42:41 : FINISHED PoC Appliance Setup
+2018-01-17 23:42:41 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:44:25 : STARTED PoC Appliance Setup
+2018-01-17 23:44:25 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:44:25 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:44:25 : Writing output to setupAppliance.log
+2018-01-17 23:44:25 : 
+2018-01-17 23:44:26 : Traceback (most recent call last):
+2018-01-17 23:44:26 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 23:44:26 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 23:44:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1583, in __enter__
+2018-01-17 23:44:26 : self._poc = Config(self._user, self._pwd)
+2018-01-17 23:44:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1504, in __init__
+2018-01-17 23:44:26 : super(Config, self).__init__(self._si)
+2018-01-17 23:44:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1193, in __init__
+2018-01-17 23:44:26 : self._bom = BOM()
+2018-01-17 23:44:26 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1155, in __init__
+2018-01-17 23:44:26 : self._bom = json.loads(f) #,  object_hook=byteify)
+2018-01-17 23:44:26 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 23:44:26 : TypeError: the JSON object must be str, not 'TextIOWrapper'
+2018-01-17 23:44:26 : FINISHED PoC Appliance Setup
+2018-01-17 23:44:26 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:45:46 : STARTED PoC Appliance Setup
+2018-01-17 23:45:46 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:45:46 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:45:46 : Writing output to setupAppliance.log
+2018-01-17 23:45:46 : 
+2018-01-17 23:45:47 : Traceback (most recent call last):
+2018-01-17 23:45:47 : File "./setupAppliance.py", line 18, in <module>
+2018-01-17 23:45:47 : with POCAdmin("root", "CAdemo123") as poc:
+2018-01-17 23:45:47 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1583, in __enter__
+2018-01-17 23:45:47 : self._poc = Config(self._user, self._pwd)
+2018-01-17 23:45:47 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1504, in __init__
+2018-01-17 23:45:47 : super(Config, self).__init__(self._si)
+2018-01-17 23:45:47 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1193, in __init__
+2018-01-17 23:45:47 : self._bom = BOM()
+2018-01-17 23:45:47 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1155, in __init__
+2018-01-17 23:45:47 : self._bom = json.load(f) #,  object_hook=byteify)
+2018-01-17 23:45:48 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 312, in loads
+2018-01-17 23:45:48 : TypeError: the JSON object must be str, not 'TextIOWrapper'
+2018-01-17 23:45:48 : FINISHED PoC Appliance Setup
+2018-01-17 23:45:48 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:47:37 : STARTED PoC Appliance Setup
+2018-01-17 23:47:37 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:47:37 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:47:37 : Writing output to setupAppliance.log
+2018-01-17 23:47:37 : 
+2018-01-17 23:47:38 : [{'archive': 'None.ova', 'vmx': 'Ansible Controller_1.vmx', 'suite': ['PM'], 'product': 'Ansible Controller', 'hostname': 'ansible', 'ipVar': 'ANS_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-ADA.tgz', 'vmx': 'CA Application Delivery Analysis.vmx', 'suite': ['APM', 'IM'], 'product': 'CA Application Delivery Analysis', 'hostname': 'ada', 'ipVar': 'ADA_IP', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}}, {'archive': 'CA-APM.ova', 'vmx': 'CA APM.vmx', 'suite': ['APM'], 'product': 'CA APM', 'hostname': 'APM', 'ipVar': 'EM_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-APM-TIM.ova', 'vmx': 'CA APM TIM.vmx', 'suite': ['APM'], 'product': 'CA APM TIM', 'hostname': 'TIM', 'ipVar': 'TIM_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-CABI.ova', 'vmx': 'CA Business Intelligence Reporter.vmx', 'suite': ['PM', 'IM'], 'product': 'CA Business Intelligence Reporter', 'hostname': 'CABI', 'ipVar': 'CABI_IP', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}}, {'archive': 'CA-DXC.ova', 'vmx': 'CA Experience Collector.vmx', 'suite': ['PM', 'IM'], 'product': 'CA Experience Collector', 'hostname': 'DXC', 'ipVar': 'DXC_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-DA.ova', 'vmx': 'CA Data Aggregator.vmx', 'suite': ['PM'], 'product': 'CA Data Aggregator', 'hostname': 'DA', 'ipVar': 'DA_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-PC.ova', 'vmx': 'CA Performance Center.vmx', 'suite': ['PM'], 'product': 'CA Performance Center', 'hostname': 'CAPC', 'ipVar': 'PC_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-DR.ova', 'vmx': 'CA Data Repository.vmx', 'suite': ['PM'], 'product': 'CA Data Repository', 'hostname': 'DR', 'ipVar': 'DR_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-DC.ova', 'vmx': 'CA Data Collector.vmx', 'suite': ['PM'], 'product': 'CA Data Collector', 'hostname': 'DC', 'ipVar': 'DC_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-NFA.tgz', 'vmx': 'CA Network Flow Analysis.vmx', 'suite': ['PM', 'IM'], 'product': 'CA Network Flow Analysis', 'hostname': 'NFA', 'ipVar': 'NFA_IP', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}}, {'archive': 'CA-Spectrum.ova', 'vmx': 'CA Spectrum SS and OC.vmx', 'suite': ['PM', 'IM'], 'product': 'CA Spectrum SS and OC', 'hostname': 'SPECTRUM', 'ipVar': 'SPEC_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}, {'archive': 'CA-SOI.ova', 'vmx': 'CA Service Operations Insight.vmx', 'suite': ['APM', 'IM'], 'product': 'CA Service Operations Insight', 'hostname': 'SOI', 'ipVar': 'SOI_IP', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}}, {'archive': 'CA-UIM.ova', 'vmx': 'CA Unified Infrastructure Management.vmx', 'suite': ['APM', 'IM'], 'product': 'CA Unified Infrastructure Management', 'hostname': 'UIM', 'ipVar': 'UIM_IP', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}}, {'archive': 'CA-VNA.ova', 'vmx': 'CA Virtual Network Assurance.vmx', 'suite': ['IM', 'APM'], 'product': 'CA Virtual Network Assurance', 'hostname': 'VNA', 'ipVar': 'VNA_IP', 'authentication': {'username': 'root', 'password': 'CAdemo123'}}]
+2018-01-17 23:47:38 : Importing information from setupAppliance.properties
+2018-01-17 23:47:38 : Host time: 2018-01-17 23:47:38.241313+00:00
+2018-01-17 23:47:38 : POC TZ: America/Chicago
+2018-01-17 23:47:38 : Default Gateway:
+2018-01-17 23:47:38 : Netmask:
+2018-01-17 23:47:38 : DNS Servers:
+2018-01-17 23:47:38 : 
+2018-01-17 23:47:38 : Name: Ansible Controller
+2018-01-17 23:47:38 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 23:47:38 : Guest: centos7_64Guest
+2018-01-17 23:47:38 : State: Guest NOT ready
+2018-01-17 23:47:38 : Power: poweredOn
+2018-01-17 23:47:38 : VM Tools: toolsOk
+2018-01-17 23:47:38 : Net State: guestNetReady
+2018-01-17 23:47:38 : IP Address: 10.242.81.27
+2018-01-17 23:47:38 : 
+2018-01-17 23:47:38 : Name: CA Business Intelligence Reporter
+2018-01-17 23:47:38 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 23:47:38 : Guest: windows8Server64Guest
+2018-01-17 23:47:38 : State: Guest NOT ready
+2018-01-17 23:47:38 : Power: poweredOff
+2018-01-17 23:47:38 : VM Tools: toolsNotRunning
+2018-01-17 23:47:38 : Net State: guestNetNotReady
+2018-01-17 23:47:38 : IP Address:
+2018-01-17 23:47:38 : 
+2018-01-17 23:47:38 : Name: VMware vCenter Server Appliance
+2018-01-17 23:47:38 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 23:47:38 : Guest: other3xLinux64Guest
+2018-01-17 23:47:38 : State: Guest NOT ready
+2018-01-17 23:47:38 : Power: poweredOn
+2018-01-17 23:47:38 : VM Tools: toolsOk
+2018-01-17 23:47:38 : Net State: guestNetReady
+2018-01-17 23:47:38 : IP Address: 10.242.81.37
+2018-01-17 23:47:38 : 
+2018-01-17 23:47:38 : Name: CA Performance Center
+2018-01-17 23:47:38 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 23:47:38 : Guest: centos7_64Guest
+2018-01-17 23:47:38 : State: Guest NOT ready
+2018-01-17 23:47:38 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Data Repository
+2018-01-17 23:47:39 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Data Aggregator
+2018-01-17 23:47:39 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Data Collector
+2018-01-17 23:47:39 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Spectrum SS and OC
+2018-01-17 23:47:39 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Virtual Network Assurance
+2018-01-17 23:47:39 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA APM
+2018-01-17 23:47:39 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 23:47:39 : Guest: rhel7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetNotReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA APM TIM
+2018-01-17 23:47:39 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 23:47:39 : Guest: centos6_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOn
+2018-01-17 23:47:39 : VM Tools: toolsOk
+2018-01-17 23:47:39 : Net State: guestNetReady
+2018-01-17 23:47:39 : IP Address: 10.242.81.197
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Experience Collector
+2018-01-17 23:47:39 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 23:47:39 : Guest: centos7_64Guest
+2018-01-17 23:47:39 : State: Guest NOT ready
+2018-01-17 23:47:39 : Power: poweredOff
+2018-01-17 23:47:39 : VM Tools: toolsNotRunning
+2018-01-17 23:47:39 : Net State: guestNetReady
+2018-01-17 23:47:39 : IP Address:
+2018-01-17 23:47:39 : 
+2018-01-17 23:47:39 : Name: CA Application Delivery Analysis
+2018-01-17 23:47:39 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 23:47:39 : Guest: windows8Server64Guest
+2018-01-17 23:47:39 : State: Guest is ready
+2018-01-17 23:47:39 : Hostname: ADA
+2018-01-17 23:47:39 : IP Address: 10.242.81.114
+2018-01-17 23:47:39 : Traceback (most recent call last):
+2018-01-17 23:47:39 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 23:47:39 : poc.checkBuild(v)
+2018-01-17 23:47:39 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1421, in checkBuild
+2018-01-17 23:47:39 : return self._build == vm.getBuild(self._fm)
+2018-01-17 23:47:39 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 324, in getBuild
+2018-01-17 23:47:39 : data = json.load(data) #, object_hook=byteify)
+2018-01-17 23:47:39 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 265, in load
+2018-01-17 23:47:39 : AttributeError: 'bytes' object has no attribute 'read'
+2018-01-17 23:47:39 : FINISHED PoC Appliance Setup
+2018-01-17 23:47:39 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:50:04 : STARTED PoC Appliance Setup
+2018-01-17 23:50:04 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:50:04 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:50:04 : Writing output to setupAppliance.log
+2018-01-17 23:50:04 : 
+2018-01-17 23:50:05 : [{'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'ANS_IP', 'suite': ['PM'], 'product': 'Ansible Controller', 'hostname': 'ansible', 'archive': 'None.ova', 'vmx': 'Ansible Controller_1.vmx'}, {'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'ADA_IP', 'suite': ['APM', 'IM'], 'product': 'CA Application Delivery Analysis', 'hostname': 'ada', 'archive': 'CA-ADA.tgz', 'vmx': 'CA Application Delivery Analysis.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'EM_IP', 'suite': ['APM'], 'product': 'CA APM', 'hostname': 'APM', 'archive': 'CA-APM.ova', 'vmx': 'CA APM.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'TIM_IP', 'suite': ['APM'], 'product': 'CA APM TIM', 'hostname': 'TIM', 'archive': 'CA-APM-TIM.ova', 'vmx': 'CA APM TIM.vmx'}, {'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'CABI_IP', 'suite': ['PM', 'IM'], 'product': 'CA Business Intelligence Reporter', 'hostname': 'CABI', 'archive': 'CA-CABI.ova', 'vmx': 'CA Business Intelligence Reporter.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DXC_IP', 'suite': ['PM', 'IM'], 'product': 'CA Experience Collector', 'hostname': 'DXC', 'archive': 'CA-DXC.ova', 'vmx': 'CA Experience Collector.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DA_IP', 'suite': ['PM'], 'product': 'CA Data Aggregator', 'hostname': 'DA', 'archive': 'CA-DA.ova', 'vmx': 'CA Data Aggregator.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'PC_IP', 'suite': ['PM'], 'product': 'CA Performance Center', 'hostname': 'CAPC', 'archive': 'CA-PC.ova', 'vmx': 'CA Performance Center.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DR_IP', 'suite': ['PM'], 'product': 'CA Data Repository', 'hostname': 'DR', 'archive': 'CA-DR.ova', 'vmx': 'CA Data Repository.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DC_IP', 'suite': ['PM'], 'product': 'CA Data Collector', 'hostname': 'DC', 'archive': 'CA-DC.ova', 'vmx': 'CA Data Collector.vmx'}, {'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'NFA_IP', 'suite': ['PM', 'IM'], 'product': 'CA Network Flow Analysis', 'hostname': 'NFA', 'archive': 'CA-NFA.tgz', 'vmx': 'CA Network Flow Analysis.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'SPEC_IP', 'suite': ['PM', 'IM'], 'product': 'CA Spectrum SS and OC', 'hostname': 'SPECTRUM', 'archive': 'CA-Spectrum.ova', 'vmx': 'CA Spectrum SS and OC.vmx'}, {'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'SOI_IP', 'suite': ['APM', 'IM'], 'product': 'CA Service Operations Insight', 'hostname': 'SOI', 'archive': 'CA-SOI.ova', 'vmx': 'CA Service Operations Insight.vmx'}, {'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'UIM_IP', 'suite': ['APM', 'IM'], 'product': 'CA Unified Infrastructure Management', 'hostname': 'UIM', 'archive': 'CA-UIM.ova', 'vmx': 'CA Unified Infrastructure Management.vmx'}, {'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'VNA_IP', 'suite': ['IM', 'APM'], 'product': 'CA Virtual Network Assurance', 'hostname': 'VNA', 'archive': 'CA-VNA.ova', 'vmx': 'CA Virtual Network Assurance.vmx'}]
+2018-01-17 23:50:05 : Importing information from setupAppliance.properties
+2018-01-17 23:50:05 : Host time: 2018-01-17 23:50:05.072696+00:00
+2018-01-17 23:50:05 : POC TZ: America/Chicago
+2018-01-17 23:50:05 : Default Gateway:
+2018-01-17 23:50:05 : Netmask:
+2018-01-17 23:50:05 : DNS Servers:
+2018-01-17 23:50:05 : 
+2018-01-17 23:50:05 : Name: Ansible Controller
+2018-01-17 23:50:05 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 23:50:05 : Guest: centos7_64Guest
+2018-01-17 23:50:05 : State: Guest NOT ready
+2018-01-17 23:50:05 : Power: poweredOn
+2018-01-17 23:50:05 : VM Tools: toolsOk
+2018-01-17 23:50:05 : Net State: guestNetReady
+2018-01-17 23:50:05 : IP Address: 10.242.81.27
+2018-01-17 23:50:05 : 
+2018-01-17 23:50:05 : Name: CA Business Intelligence Reporter
+2018-01-17 23:50:05 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 23:50:05 : Guest: windows8Server64Guest
+2018-01-17 23:50:05 : State: Guest NOT ready
+2018-01-17 23:50:05 : Power: poweredOff
+2018-01-17 23:50:05 : VM Tools: toolsNotRunning
+2018-01-17 23:50:05 : Net State: guestNetNotReady
+2018-01-17 23:50:05 : IP Address:
+2018-01-17 23:50:05 : 
+2018-01-17 23:50:05 : Name: VMware vCenter Server Appliance
+2018-01-17 23:50:05 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 23:50:05 : Guest: other3xLinux64Guest
+2018-01-17 23:50:05 : State: Guest NOT ready
+2018-01-17 23:50:05 : Power: poweredOn
+2018-01-17 23:50:05 : VM Tools: toolsOk
+2018-01-17 23:50:05 : Net State: guestNetReady
+2018-01-17 23:50:05 : IP Address: 10.242.81.37
+2018-01-17 23:50:05 : 
+2018-01-17 23:50:05 : Name: CA Performance Center
+2018-01-17 23:50:05 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 23:50:05 : Guest: centos7_64Guest
+2018-01-17 23:50:05 : State: Guest NOT ready
+2018-01-17 23:50:05 : Power: poweredOff
+2018-01-17 23:50:05 : VM Tools: toolsNotRunning
+2018-01-17 23:50:05 : Net State: guestNetNotReady
+2018-01-17 23:50:05 : IP Address:
+2018-01-17 23:50:05 : 
+2018-01-17 23:50:05 : Name: CA Data Repository
+2018-01-17 23:50:06 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Data Aggregator
+2018-01-17 23:50:06 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Data Collector
+2018-01-17 23:50:06 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Spectrum SS and OC
+2018-01-17 23:50:06 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Virtual Network Assurance
+2018-01-17 23:50:06 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA APM
+2018-01-17 23:50:06 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 23:50:06 : Guest: rhel7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetNotReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA APM TIM
+2018-01-17 23:50:06 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 23:50:06 : Guest: centos6_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOn
+2018-01-17 23:50:06 : VM Tools: toolsOk
+2018-01-17 23:50:06 : Net State: guestNetReady
+2018-01-17 23:50:06 : IP Address: 10.242.81.197
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Experience Collector
+2018-01-17 23:50:06 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 23:50:06 : Guest: centos7_64Guest
+2018-01-17 23:50:06 : State: Guest NOT ready
+2018-01-17 23:50:06 : Power: poweredOff
+2018-01-17 23:50:06 : VM Tools: toolsNotRunning
+2018-01-17 23:50:06 : Net State: guestNetReady
+2018-01-17 23:50:06 : IP Address:
+2018-01-17 23:50:06 : 
+2018-01-17 23:50:06 : Name: CA Application Delivery Analysis
+2018-01-17 23:50:06 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 23:50:06 : Guest: windows8Server64Guest
+2018-01-17 23:50:06 : State: Guest is ready
+2018-01-17 23:50:06 : Hostname: ADA
+2018-01-17 23:50:06 : IP Address: 10.242.81.114
+2018-01-17 23:50:06 : Traceback (most recent call last):
+2018-01-17 23:50:06 : File "./setupAppliance.py", line 39, in <module>
+2018-01-17 23:50:06 : poc.checkBuild(v)
+2018-01-17 23:50:06 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 1421, in checkBuild
+2018-01-17 23:50:06 : return self._build == vm.getBuild(self._fm)
+2018-01-17 23:50:06 : File "/vmfs/volumes/5910afc8-cbb3d246-a6db-0cc47a6bd264/setupAppliance/POC.py", line 324, in getBuild
+2018-01-17 23:50:06 : data = json.load(data, object_hook=byteify)
+2018-01-17 23:50:06 : File "/build/mts/release/bora-5969303/bora/build/esx/release/vmvisor/sys-boot/lib64/python3.5/json/__init__.py", line 265, in load
+2018-01-17 23:50:06 : AttributeError: 'bytes' object has no attribute 'read'
+2018-01-17 23:50:06 : FINISHED PoC Appliance Setup
+2018-01-17 23:50:06 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-17 23:52:11 : STARTED PoC Appliance Setup
+2018-01-17 23:52:11 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-17 23:52:11 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-17 23:52:11 : Writing output to setupAppliance.log
+2018-01-17 23:52:11 : 
+2018-01-17 23:52:12 : [{'product': 'Ansible Controller', 'hostname': 'ansible', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'ANS_IP', 'vmx': 'Ansible Controller_1.vmx', 'archive': 'None.ova', 'suite': ['PM']}, {'product': 'CA Application Delivery Analysis', 'hostname': 'ada', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'ADA_IP', 'vmx': 'CA Application Delivery Analysis.vmx', 'archive': 'CA-ADA.tgz', 'suite': ['APM', 'IM']}, {'product': 'CA APM', 'hostname': 'APM', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'EM_IP', 'vmx': 'CA APM.vmx', 'archive': 'CA-APM.ova', 'suite': ['APM']}, {'product': 'CA APM TIM', 'hostname': 'TIM', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'TIM_IP', 'vmx': 'CA APM TIM.vmx', 'archive': 'CA-APM-TIM.ova', 'suite': ['APM']}, {'product': 'CA Business Intelligence Reporter', 'hostname': 'CABI', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'CABI_IP', 'vmx': 'CA Business Intelligence Reporter.vmx', 'archive': 'CA-CABI.ova', 'suite': ['PM', 'IM']}, {'product': 'CA Experience Collector', 'hostname': 'DXC', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DXC_IP', 'vmx': 'CA Experience Collector.vmx', 'archive': 'CA-DXC.ova', 'suite': ['PM', 'IM']}, {'product': 'CA Data Aggregator', 'hostname': 'DA', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DA_IP', 'vmx': 'CA Data Aggregator.vmx', 'archive': 'CA-DA.ova', 'suite': ['PM']}, {'product': 'CA Performance Center', 'hostname': 'CAPC', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'PC_IP', 'vmx': 'CA Performance Center.vmx', 'archive': 'CA-PC.ova', 'suite': ['PM']}, {'product': 'CA Data Repository', 'hostname': 'DR', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DR_IP', 'vmx': 'CA Data Repository.vmx', 'archive': 'CA-DR.ova', 'suite': ['PM']}, {'product': 'CA Data Collector', 'hostname': 'DC', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'DC_IP', 'vmx': 'CA Data Collector.vmx', 'archive': 'CA-DC.ova', 'suite': ['PM']}, {'product': 'CA Network Flow Analysis', 'hostname': 'NFA', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'NFA_IP', 'vmx': 'CA Network Flow Analysis.vmx', 'archive': 'CA-NFA.tgz', 'suite': ['PM', 'IM']}, {'product': 'CA Spectrum SS and OC', 'hostname': 'SPECTRUM', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'SPEC_IP', 'vmx': 'CA Spectrum SS and OC.vmx', 'archive': 'CA-Spectrum.ova', 'suite': ['PM', 'IM']}, {'product': 'CA Service Operations Insight', 'hostname': 'SOI', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'SOI_IP', 'vmx': 'CA Service Operations Insight.vmx', 'archive': 'CA-SOI.ova', 'suite': ['APM', 'IM']}, {'product': 'CA Unified Infrastructure Management', 'hostname': 'UIM', 'authentication': {'username': 'administrator', 'password': 'CAdemo123'}, 'ipVar': 'UIM_IP', 'vmx': 'CA Unified Infrastructure Management.vmx', 'archive': 'CA-UIM.ova', 'suite': ['APM', 'IM']}, {'product': 'CA Virtual Network Assurance', 'hostname': 'VNA', 'authentication': {'username': 'root', 'password': 'CAdemo123'}, 'ipVar': 'VNA_IP', 'vmx': 'CA Virtual Network Assurance.vmx', 'archive': 'CA-VNA.ova', 'suite': ['IM', 'APM']}]
+2018-01-17 23:52:12 : Importing information from setupAppliance.properties
+2018-01-17 23:52:12 : Host time: 2018-01-17 23:52:12.148046+00:00
+2018-01-17 23:52:12 : POC TZ: America/Chicago
+2018-01-17 23:52:12 : Default Gateway:
+2018-01-17 23:52:12 : Netmask:
+2018-01-17 23:52:12 : DNS Servers:
+2018-01-17 23:52:12 : 
+2018-01-17 23:52:12 : Name: Ansible Controller
+2018-01-17 23:52:12 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-17 23:52:12 : Guest: centos7_64Guest
+2018-01-17 23:52:12 : State: Guest NOT ready
+2018-01-17 23:52:12 : Power: poweredOn
+2018-01-17 23:52:12 : VM Tools: toolsOk
+2018-01-17 23:52:12 : Net State: guestNetReady
+2018-01-17 23:52:12 : IP Address: 10.242.81.27
+2018-01-17 23:52:12 : 
+2018-01-17 23:52:12 : Name: CA Business Intelligence Reporter
+2018-01-17 23:52:12 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-17 23:52:12 : Guest: windows8Server64Guest
+2018-01-17 23:52:12 : State: Guest NOT ready
+2018-01-17 23:52:12 : Power: poweredOff
+2018-01-17 23:52:12 : VM Tools: toolsNotRunning
+2018-01-17 23:52:12 : Net State: guestNetNotReady
+2018-01-17 23:52:12 : IP Address:
+2018-01-17 23:52:12 : 
+2018-01-17 23:52:12 : Name: VMware vCenter Server Appliance
+2018-01-17 23:52:12 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-17 23:52:12 : Guest: other3xLinux64Guest
+2018-01-17 23:52:12 : State: Guest NOT ready
+2018-01-17 23:52:12 : Power: poweredOn
+2018-01-17 23:52:12 : VM Tools: toolsOk
+2018-01-17 23:52:12 : Net State: guestNetReady
+2018-01-17 23:52:12 : IP Address: 10.242.81.37
+2018-01-17 23:52:12 : 
+2018-01-17 23:52:12 : Name: CA Performance Center
+2018-01-17 23:52:12 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-17 23:52:12 : Guest: centos7_64Guest
+2018-01-17 23:52:12 : State: Guest NOT ready
+2018-01-17 23:52:12 : Power: poweredOff
+2018-01-17 23:52:12 : VM Tools: toolsNotRunning
+2018-01-17 23:52:12 : Net State: guestNetNotReady
+2018-01-17 23:52:13 : IP Address:
+2018-01-17 23:52:13 : 
+2018-01-17 23:52:13 : Name: CA Data Repository
+2018-01-17 23:52:13 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-17 23:52:13 : Guest: centos7_64Guest
+2018-01-17 23:52:13 : State: Guest NOT ready
+2018-01-17 23:52:13 : Power: poweredOff
+2018-01-17 23:52:13 : VM Tools: toolsNotRunning
+2018-01-17 23:52:13 : Net State: guestNetNotReady
+2018-01-17 23:52:13 : IP Address:
+2018-01-17 23:52:13 : 
+2018-01-17 23:52:13 : Name: CA Data Aggregator
+2018-01-17 23:52:13 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-17 23:52:13 : Guest: centos7_64Guest
+2018-01-17 23:52:13 : State: Guest NOT ready
+2018-01-17 23:52:13 : Power: poweredOff
+2018-01-17 23:52:13 : VM Tools: toolsNotRunning
+2018-01-17 23:52:13 : Net State: guestNetNotReady
+2018-01-17 23:52:13 : IP Address:
+2018-01-17 23:52:13 : 
+2018-01-17 23:52:13 : Name: CA Data Collector
+2018-01-17 23:52:13 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-17 23:52:13 : Guest: centos7_64Guest
+2018-01-17 23:52:13 : State: Guest NOT ready
+2018-01-17 23:52:14 : Power: poweredOff
+2018-01-17 23:52:14 : VM Tools: toolsNotRunning
+2018-01-17 23:52:14 : Net State: guestNetNotReady
+2018-01-17 23:52:14 : IP Address:
+2018-01-17 23:52:14 : 
+2018-01-17 23:52:14 : Name: CA Spectrum SS and OC
+2018-01-17 23:52:14 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-17 23:52:14 : Guest: centos7_64Guest
+2018-01-17 23:52:14 : State: Guest NOT ready
+2018-01-17 23:52:14 : Power: poweredOff
+2018-01-17 23:52:14 : VM Tools: toolsNotRunning
+2018-01-17 23:52:14 : Net State: guestNetNotReady
+2018-01-17 23:52:14 : IP Address:
+2018-01-17 23:52:14 : 
+2018-01-17 23:52:14 : Name: CA Virtual Network Assurance
+2018-01-17 23:52:14 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-17 23:52:14 : Guest: centos7_64Guest
+2018-01-17 23:52:14 : State: Guest NOT ready
+2018-01-17 23:52:14 : Power: poweredOff
+2018-01-17 23:52:14 : VM Tools: toolsNotRunning
+2018-01-17 23:52:14 : Net State: guestNetNotReady
+2018-01-17 23:52:14 : IP Address:
+2018-01-17 23:52:14 : 
+2018-01-17 23:52:14 : Name: CA APM
+2018-01-17 23:52:14 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-17 23:52:14 : Guest: rhel7_64Guest
+2018-01-17 23:52:14 : State: Guest NOT ready
+2018-01-17 23:52:14 : Power: poweredOff
+2018-01-17 23:52:14 : VM Tools: toolsNotRunning
+2018-01-17 23:52:14 : Net State: guestNetNotReady
+2018-01-17 23:52:14 : IP Address:
+2018-01-17 23:52:14 : 
+2018-01-17 23:52:14 : Name: CA APM TIM
+2018-01-17 23:52:14 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-17 23:52:14 : Guest: centos6_64Guest
+2018-01-17 23:52:14 : State: Guest NOT ready
+2018-01-17 23:52:14 : Power: poweredOn
+2018-01-17 23:52:14 : VM Tools: toolsOk
+2018-01-17 23:52:14 : Net State: guestNetReady
+2018-01-17 23:52:14 : IP Address: 10.242.81.197
+2018-01-17 23:52:14 : 
+2018-01-17 23:52:14 : Name: CA Experience Collector
+2018-01-17 23:52:14 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-17 23:52:14 : Guest: centos7_64Guest
+2018-01-17 23:52:14 : State: Guest NOT ready
+2018-01-17 23:52:15 : Power: poweredOff
+2018-01-17 23:52:15 : VM Tools: toolsNotRunning
+2018-01-17 23:52:15 : Net State: guestNetReady
+2018-01-17 23:52:15 : IP Address:
+2018-01-17 23:52:15 : 
+2018-01-17 23:52:15 : Name: CA Application Delivery Analysis
+2018-01-17 23:52:15 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-17 23:52:15 : Guest: windows8Server64Guest
+2018-01-17 23:52:15 : State: Guest is ready
+2018-01-17 23:52:15 : Hostname: ADA
+2018-01-17 23:52:15 : IP Address: 10.242.81.114
+2018-01-17 23:52:15 : ...staging files for version 0
+2018-01-17 23:52:15 : ...configuring IP address dhcp on VM Network
+2018-01-17 23:52:15 : ...configuring timezone America/Chicago
+2018-01-17 23:52:15 : 
+2018-01-17 23:52:15 : Name: CA Network Flow Analysis
+2018-01-17 23:52:15 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-17 23:52:15 : Guest: windows7Server64Guest
+2018-01-17 23:52:15 : State: Guest NOT ready
+2018-01-17 23:52:15 : Power: poweredOff
+2018-01-17 23:52:15 : VM Tools: toolsNotRunning
+2018-01-17 23:52:15 : Net State: guestNetNotReady
+2018-01-17 23:52:15 : IP Address:
+2018-01-17 23:52:15 : 
+2018-01-17 23:52:15 : Name: CA Service Operations Insight
+2018-01-17 23:52:15 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-17 23:52:15 : Guest: windows7Server64Guest
+2018-01-17 23:52:15 : State: Guest NOT ready
+2018-01-17 23:52:15 : Power: poweredOff
+2018-01-17 23:52:15 : VM Tools: toolsNotRunning
+2018-01-17 23:52:15 : Net State: guestNetNotReady
+2018-01-17 23:52:15 : IP Address:
+2018-01-17 23:52:15 : 
+2018-01-17 23:52:15 : Name: CA Unified Infrastructure Management
+2018-01-17 23:52:15 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-17 23:52:15 : Guest: windows8Server64Guest
+2018-01-17 23:52:15 : State: Guest NOT ready
+2018-01-17 23:52:15 : Power: poweredOff
+2018-01-17 23:52:15 : VM Tools: toolsNotRunning
+2018-01-17 23:52:15 : Net State: guestNetNotReady
+2018-01-17 23:52:15 : IP Address:
+2018-01-17 23:52:15 : 
+2018-01-17 23:52:15 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-17 23:52:15 : FINISHED PoC Appliance Setup
+2018-01-17 23:52:15 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:00:36 : STARTED PoC Appliance Setup
+2018-01-18 00:00:37 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:00:37 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:00:37 : Writing output to setupAppliance.log
+2018-01-18 00:00:37 : 
+2018-01-18 00:00:38 : Importing information from setupAppliance.properties
+2018-01-18 00:00:38 : Host time: 2018-01-18 00:00:38.029336+00:00
+2018-01-18 00:00:38 : POC TZ: America/Los_Angeles
+2018-01-18 00:00:38 : Default Gateway:
+2018-01-18 00:00:38 : Netmask:
+2018-01-18 00:00:38 : DNS Servers:
+2018-01-18 00:00:38 : 
+2018-01-18 00:00:38 : Name: Ansible Controller
+2018-01-18 00:00:38 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:00:38 : Guest: centos7_64Guest
+2018-01-18 00:00:38 : State: Guest NOT ready
+2018-01-18 00:00:38 : Power: poweredOn
+2018-01-18 00:00:38 : VM Tools: toolsOk
+2018-01-18 00:00:38 : Net State: guestNetReady
+2018-01-18 00:00:38 : IP Address: 10.242.81.27
+2018-01-18 00:00:38 : 
+2018-01-18 00:00:38 : Name: CA Business Intelligence Reporter
+2018-01-18 00:00:38 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:00:38 : Guest: windows8Server64Guest
+2018-01-18 00:00:38 : State: Guest NOT ready
+2018-01-18 00:00:38 : Power: poweredOff
+2018-01-18 00:00:38 : VM Tools: toolsNotRunning
+2018-01-18 00:00:38 : Net State: guestNetNotReady
+2018-01-18 00:00:38 : IP Address:
+2018-01-18 00:00:38 : 
+2018-01-18 00:00:38 : Name: VMware vCenter Server Appliance
+2018-01-18 00:00:38 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:00:38 : Guest: other3xLinux64Guest
+2018-01-18 00:00:38 : State: Guest NOT ready
+2018-01-18 00:00:38 : Power: poweredOn
+2018-01-18 00:00:39 : VM Tools: toolsOk
+2018-01-18 00:00:39 : Net State: guestNetReady
+2018-01-18 00:00:39 : IP Address: 10.242.81.37
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Performance Center
+2018-01-18 00:00:39 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Data Repository
+2018-01-18 00:00:39 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Data Aggregator
+2018-01-18 00:00:39 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Data Collector
+2018-01-18 00:00:39 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Spectrum SS and OC
+2018-01-18 00:00:39 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Virtual Network Assurance
+2018-01-18 00:00:39 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA APM
+2018-01-18 00:00:39 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:00:39 : Guest: rhel7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:39 : Net State: guestNetNotReady
+2018-01-18 00:00:39 : IP Address:
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA APM TIM
+2018-01-18 00:00:39 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:00:39 : Guest: centos6_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOn
+2018-01-18 00:00:39 : VM Tools: toolsOk
+2018-01-18 00:00:39 : Net State: guestNetReady
+2018-01-18 00:00:39 : IP Address: 10.242.81.197
+2018-01-18 00:00:39 : 
+2018-01-18 00:00:39 : Name: CA Experience Collector
+2018-01-18 00:00:39 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:00:39 : Guest: centos7_64Guest
+2018-01-18 00:00:39 : State: Guest NOT ready
+2018-01-18 00:00:39 : Power: poweredOff
+2018-01-18 00:00:39 : VM Tools: toolsNotRunning
+2018-01-18 00:00:40 : Net State: guestNetReady
+2018-01-18 00:00:40 : IP Address:
+2018-01-18 00:00:40 : 
+2018-01-18 00:00:40 : Name: CA Application Delivery Analysis
+2018-01-18 00:00:40 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:00:40 : Guest: windows8Server64Guest
+2018-01-18 00:00:40 : State: Guest is ready
+2018-01-18 00:00:40 : Hostname: ADA
+2018-01-18 00:00:41 : IP Address: 10.242.81.114
+2018-01-18 00:00:41 : ...staging files for version 0
+2018-01-18 00:00:41 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:00:41 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:00:41 : 
+2018-01-18 00:00:41 : Name: CA Network Flow Analysis
+2018-01-18 00:00:41 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:00:41 : Guest: windows7Server64Guest
+2018-01-18 00:00:41 : State: Guest NOT ready
+2018-01-18 00:00:41 : Power: poweredOff
+2018-01-18 00:00:41 : VM Tools: toolsNotRunning
+2018-01-18 00:00:41 : Net State: guestNetNotReady
+2018-01-18 00:00:41 : IP Address:
+2018-01-18 00:00:41 : 
+2018-01-18 00:00:41 : Name: CA Service Operations Insight
+2018-01-18 00:00:41 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:00:41 : Guest: windows7Server64Guest
+2018-01-18 00:00:41 : State: Guest NOT ready
+2018-01-18 00:00:41 : Power: poweredOff
+2018-01-18 00:00:41 : VM Tools: toolsNotRunning
+2018-01-18 00:00:41 : Net State: guestNetNotReady
+2018-01-18 00:00:41 : IP Address:
+2018-01-18 00:00:41 : 
+2018-01-18 00:00:41 : Name: CA Unified Infrastructure Management
+2018-01-18 00:00:41 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:00:41 : Guest: windows8Server64Guest
+2018-01-18 00:00:41 : State: Guest NOT ready
+2018-01-18 00:00:41 : Power: poweredOff
+2018-01-18 00:00:41 : VM Tools: toolsNotRunning
+2018-01-18 00:00:41 : Net State: guestNetNotReady
+2018-01-18 00:00:41 : IP Address:
+2018-01-18 00:00:41 : 
+2018-01-18 00:00:41 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:00:41 : FINISHED PoC Appliance Setup
+2018-01-18 00:00:41 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:16:16 : STARTED PoC Appliance Setup
+2018-01-18 00:16:16 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:16:16 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:16:16 : Writing output to setupAppliance.log
+2018-01-18 00:16:16 : 
+2018-01-18 00:16:18 : Importing information from setupAppliance.properties
+2018-01-18 00:16:18 : Host time: 2018-01-18 00:16:17.478292+00:00
+2018-01-18 00:16:18 : POC TZ: America/Los_Angeles
+2018-01-18 00:16:18 : Default Gateway:
+2018-01-18 00:16:18 : Netmask:
+2018-01-18 00:16:18 : DNS Servers:
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: Ansible Controller
+2018-01-18 00:16:18 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOn
+2018-01-18 00:16:18 : VM Tools: toolsOk
+2018-01-18 00:16:18 : Net State: guestNetReady
+2018-01-18 00:16:18 : IP Address: 10.242.81.27
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Business Intelligence Reporter
+2018-01-18 00:16:18 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:16:18 : Guest: windows8Server64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOn
+2018-01-18 00:16:18 : VM Tools: toolsOk
+2018-01-18 00:16:18 : Net State: guestNetNotReady
+2018-01-18 00:16:18 : IP Address: 10.242.81.28
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: VMware vCenter Server Appliance
+2018-01-18 00:16:18 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:16:18 : Guest: other3xLinux64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOn
+2018-01-18 00:16:18 : VM Tools: toolsOk
+2018-01-18 00:16:18 : Net State: guestNetReady
+2018-01-18 00:16:18 : IP Address: 10.242.81.37
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Performance Center
+2018-01-18 00:16:18 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOff
+2018-01-18 00:16:18 : VM Tools: toolsNotRunning
+2018-01-18 00:16:18 : Net State: guestNetNotReady
+2018-01-18 00:16:18 : IP Address:
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Data Repository
+2018-01-18 00:16:18 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOff
+2018-01-18 00:16:18 : VM Tools: toolsNotRunning
+2018-01-18 00:16:18 : Net State: guestNetNotReady
+2018-01-18 00:16:18 : IP Address:
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Data Aggregator
+2018-01-18 00:16:18 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOff
+2018-01-18 00:16:18 : VM Tools: toolsNotRunning
+2018-01-18 00:16:18 : Net State: guestNetNotReady
+2018-01-18 00:16:18 : IP Address:
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Data Collector
+2018-01-18 00:16:18 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOff
+2018-01-18 00:16:18 : VM Tools: toolsNotRunning
+2018-01-18 00:16:18 : Net State: guestNetNotReady
+2018-01-18 00:16:18 : IP Address:
+2018-01-18 00:16:18 : 
+2018-01-18 00:16:18 : Name: CA Spectrum SS and OC
+2018-01-18 00:16:18 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:16:18 : Guest: centos7_64Guest
+2018-01-18 00:16:18 : State: Guest NOT ready
+2018-01-18 00:16:18 : Power: poweredOff
+2018-01-18 00:16:19 : VM Tools: toolsNotRunning
+2018-01-18 00:16:19 : Net State: guestNetNotReady
+2018-01-18 00:16:19 : IP Address:
+2018-01-18 00:16:19 : 
+2018-01-18 00:16:19 : Name: CA Virtual Network Assurance
+2018-01-18 00:16:19 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:16:19 : Guest: centos7_64Guest
+2018-01-18 00:16:19 : State: Guest NOT ready
+2018-01-18 00:16:19 : Power: poweredOff
+2018-01-18 00:16:19 : VM Tools: toolsNotRunning
+2018-01-18 00:16:19 : Net State: guestNetNotReady
+2018-01-18 00:16:19 : IP Address:
+2018-01-18 00:16:19 : 
+2018-01-18 00:16:19 : Name: CA APM
+2018-01-18 00:16:19 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:16:19 : Guest: rhel7_64Guest
+2018-01-18 00:16:19 : State: Guest NOT ready
+2018-01-18 00:16:19 : Power: poweredOff
+2018-01-18 00:16:19 : VM Tools: toolsNotRunning
+2018-01-18 00:16:19 : Net State: guestNetNotReady
+2018-01-18 00:16:19 : IP Address:
+2018-01-18 00:16:19 : 
+2018-01-18 00:16:19 : Name: CA APM TIM
+2018-01-18 00:16:19 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:16:19 : Guest: centos6_64Guest
+2018-01-18 00:16:19 : State: Guest NOT ready
+2018-01-18 00:16:19 : Power: poweredOn
+2018-01-18 00:16:19 : VM Tools: toolsOk
+2018-01-18 00:16:19 : Net State: guestNetReady
+2018-01-18 00:16:19 : IP Address: 10.242.81.197
+2018-01-18 00:16:19 : 
+2018-01-18 00:16:19 : Name: CA Experience Collector
+2018-01-18 00:16:19 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:16:19 : Guest: centos7_64Guest
+2018-01-18 00:16:19 : State: Guest NOT ready
+2018-01-18 00:16:19 : Power: poweredOff
+2018-01-18 00:16:19 : VM Tools: toolsNotRunning
+2018-01-18 00:16:20 : Net State: guestNetReady
+2018-01-18 00:16:20 : IP Address:
+2018-01-18 00:16:20 : 
+2018-01-18 00:16:20 : Name: CA Application Delivery Analysis
+2018-01-18 00:16:20 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:16:20 : Guest: windows8Server64Guest
+2018-01-18 00:16:20 : State: Guest is ready
+2018-01-18 00:16:20 : Hostname: ADA
+2018-01-18 00:16:20 : IP Address: 10.242.81.114
+2018-01-18 00:16:20 : ...staging files for version 0
+2018-01-18 00:16:20 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:16:20 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:16:20 : 
+2018-01-18 00:16:20 : Name: CA Network Flow Analysis
+2018-01-18 00:16:20 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:16:20 : Guest: windows7Server64Guest
+2018-01-18 00:16:20 : State: Guest NOT ready
+2018-01-18 00:16:20 : Power: poweredOff
+2018-01-18 00:16:20 : VM Tools: toolsNotRunning
+2018-01-18 00:16:20 : Net State: guestNetNotReady
+2018-01-18 00:16:20 : IP Address:
+2018-01-18 00:16:20 : 
+2018-01-18 00:16:20 : Name: CA Service Operations Insight
+2018-01-18 00:16:20 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:16:20 : Guest: windows7Server64Guest
+2018-01-18 00:16:20 : State: Guest NOT ready
+2018-01-18 00:16:20 : Power: poweredOff
+2018-01-18 00:16:20 : VM Tools: toolsNotRunning
+2018-01-18 00:16:20 : Net State: guestNetNotReady
+2018-01-18 00:16:20 : IP Address:
+2018-01-18 00:16:20 : 
+2018-01-18 00:16:20 : Name: CA Unified Infrastructure Management
+2018-01-18 00:16:20 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:16:20 : Guest: windows8Server64Guest
+2018-01-18 00:16:20 : State: Guest NOT ready
+2018-01-18 00:16:20 : Power: poweredOff
+2018-01-18 00:16:20 : VM Tools: toolsNotRunning
+2018-01-18 00:16:20 : Net State: guestNetNotReady
+2018-01-18 00:16:20 : IP Address:
+2018-01-18 00:16:20 : 
+2018-01-18 00:16:20 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:16:20 : FINISHED PoC Appliance Setup
+2018-01-18 00:16:20 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:17:29 : STARTED PoC Appliance Setup
+2018-01-18 00:17:29 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:17:29 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:17:29 : Writing output to setupAppliance.log
+2018-01-18 00:17:29 : 
+2018-01-18 00:17:32 : Importing information from setupAppliance.properties
+2018-01-18 00:17:32 : Host time: 2018-01-18 00:17:30.742512+00:00
+2018-01-18 00:17:32 : POC TZ: America/Los_Angeles
+2018-01-18 00:17:32 : Default Gateway:
+2018-01-18 00:17:32 : Netmask:
+2018-01-18 00:17:32 : DNS Servers:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: Ansible Controller
+2018-01-18 00:17:32 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOn
+2018-01-18 00:17:32 : VM Tools: toolsOk
+2018-01-18 00:17:32 : Net State: guestNetReady
+2018-01-18 00:17:32 : IP Address: 10.242.81.27
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Business Intelligence Reporter
+2018-01-18 00:17:32 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:17:32 : Guest: windows8Server64Guest
+2018-01-18 00:17:32 : State: Guest is ready
+2018-01-18 00:17:32 : Hostname: cabi
+2018-01-18 00:17:32 : IP Address: 10.242.81.28
+2018-01-18 00:17:32 : ...staging files for version 0
+2018-01-18 00:17:32 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:17:32 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: VMware vCenter Server Appliance
+2018-01-18 00:17:32 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:17:32 : Guest: other3xLinux64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOn
+2018-01-18 00:17:32 : VM Tools: toolsOk
+2018-01-18 00:17:32 : Net State: guestNetReady
+2018-01-18 00:17:32 : IP Address: 10.242.81.37
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Performance Center
+2018-01-18 00:17:32 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Data Repository
+2018-01-18 00:17:32 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Data Aggregator
+2018-01-18 00:17:32 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Data Collector
+2018-01-18 00:17:32 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Spectrum SS and OC
+2018-01-18 00:17:32 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA Virtual Network Assurance
+2018-01-18 00:17:32 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:17:32 : Guest: centos7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:32 : Net State: guestNetNotReady
+2018-01-18 00:17:32 : IP Address:
+2018-01-18 00:17:32 : 
+2018-01-18 00:17:32 : Name: CA APM
+2018-01-18 00:17:32 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:17:32 : Guest: rhel7_64Guest
+2018-01-18 00:17:32 : State: Guest NOT ready
+2018-01-18 00:17:32 : Power: poweredOff
+2018-01-18 00:17:32 : VM Tools: toolsNotRunning
+2018-01-18 00:17:33 : Net State: guestNetNotReady
+2018-01-18 00:17:33 : IP Address:
+2018-01-18 00:17:33 : 
+2018-01-18 00:17:33 : Name: CA APM TIM
+2018-01-18 00:17:33 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:17:33 : Guest: centos6_64Guest
+2018-01-18 00:17:33 : State: Guest NOT ready
+2018-01-18 00:17:33 : Power: poweredOn
+2018-01-18 00:17:33 : VM Tools: toolsOk
+2018-01-18 00:17:33 : Net State: guestNetReady
+2018-01-18 00:17:33 : IP Address: 10.242.81.197
+2018-01-18 00:17:33 : 
+2018-01-18 00:17:33 : Name: CA Experience Collector
+2018-01-18 00:17:33 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:17:33 : Guest: centos7_64Guest
+2018-01-18 00:17:33 : State: Guest NOT ready
+2018-01-18 00:17:33 : Power: poweredOff
+2018-01-18 00:17:34 : VM Tools: toolsNotRunning
+2018-01-18 00:17:34 : Net State: guestNetReady
+2018-01-18 00:17:34 : IP Address:
+2018-01-18 00:17:34 : 
+2018-01-18 00:17:34 : Name: CA Application Delivery Analysis
+2018-01-18 00:17:34 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:17:34 : Guest: windows8Server64Guest
+2018-01-18 00:17:34 : State: Guest is ready
+2018-01-18 00:17:34 : Hostname: ADA
+2018-01-18 00:17:34 : IP Address: 10.242.81.114
+2018-01-18 00:17:34 : ...staging files for version 0
+2018-01-18 00:17:34 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:17:34 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:17:34 : 
+2018-01-18 00:17:34 : Name: CA Network Flow Analysis
+2018-01-18 00:17:34 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:17:34 : Guest: windows7Server64Guest
+2018-01-18 00:17:34 : State: Guest NOT ready
+2018-01-18 00:17:34 : Power: poweredOff
+2018-01-18 00:17:34 : VM Tools: toolsNotRunning
+2018-01-18 00:17:34 : Net State: guestNetNotReady
+2018-01-18 00:17:34 : IP Address:
+2018-01-18 00:17:34 : 
+2018-01-18 00:17:34 : Name: CA Service Operations Insight
+2018-01-18 00:17:34 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:17:34 : Guest: windows7Server64Guest
+2018-01-18 00:17:34 : State: Guest NOT ready
+2018-01-18 00:17:34 : Power: poweredOff
+2018-01-18 00:17:34 : VM Tools: toolsNotRunning
+2018-01-18 00:17:34 : Net State: guestNetNotReady
+2018-01-18 00:17:34 : IP Address:
+2018-01-18 00:17:34 : 
+2018-01-18 00:17:34 : Name: CA Unified Infrastructure Management
+2018-01-18 00:17:34 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:17:34 : Guest: windows8Server64Guest
+2018-01-18 00:17:34 : State: Guest NOT ready
+2018-01-18 00:17:34 : Power: poweredOff
+2018-01-18 00:17:34 : VM Tools: toolsNotRunning
+2018-01-18 00:17:34 : Net State: guestNetNotReady
+2018-01-18 00:17:34 : IP Address:
+2018-01-18 00:17:34 : 
+2018-01-18 00:17:34 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 00:17:34 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:17:34 : FINISHED PoC Appliance Setup
+2018-01-18 00:17:34 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:23:06 : STARTED PoC Appliance Setup
+2018-01-18 00:23:06 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:23:06 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:23:06 : Writing output to setupAppliance.log
+2018-01-18 00:23:06 : 
+2018-01-18 00:23:09 : Importing information from setupAppliance.properties
+2018-01-18 00:23:09 : Host time: 2018-01-18 00:23:07.868474+00:00
+2018-01-18 00:23:09 : POC TZ: America/Los_Angeles
+2018-01-18 00:23:09 : Default Gateway:
+2018-01-18 00:23:09 : Netmask:
+2018-01-18 00:23:09 : DNS Servers:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: Ansible Controller
+2018-01-18 00:23:09 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOn
+2018-01-18 00:23:09 : VM Tools: toolsOk
+2018-01-18 00:23:09 : Net State: guestNetReady
+2018-01-18 00:23:09 : IP Address: 10.242.81.27
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Business Intelligence Reporter
+2018-01-18 00:23:09 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:23:09 : Guest: windows8Server64Guest
+2018-01-18 00:23:09 : State: Guest is ready
+2018-01-18 00:23:09 : Hostname: cabi
+2018-01-18 00:23:09 : IP Address: 10.242.81.28
+2018-01-18 00:23:09 : ...staging files for version 0
+2018-01-18 00:23:09 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:23:09 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: VMware vCenter Server Appliance
+2018-01-18 00:23:09 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:23:09 : Guest: other3xLinux64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOn
+2018-01-18 00:23:09 : VM Tools: toolsOk
+2018-01-18 00:23:09 : Net State: guestNetReady
+2018-01-18 00:23:09 : IP Address: 10.242.81.37
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Performance Center
+2018-01-18 00:23:09 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Data Repository
+2018-01-18 00:23:09 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Data Aggregator
+2018-01-18 00:23:09 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Data Collector
+2018-01-18 00:23:09 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Spectrum SS and OC
+2018-01-18 00:23:09 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:09 : Name: CA Virtual Network Assurance
+2018-01-18 00:23:09 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:23:09 : Guest: centos7_64Guest
+2018-01-18 00:23:09 : State: Guest NOT ready
+2018-01-18 00:23:09 : Power: poweredOff
+2018-01-18 00:23:09 : VM Tools: toolsNotRunning
+2018-01-18 00:23:09 : Net State: guestNetNotReady
+2018-01-18 00:23:09 : IP Address:
+2018-01-18 00:23:09 : 
+2018-01-18 00:23:10 : Name: CA APM
+2018-01-18 00:23:10 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:23:10 : Guest: rhel7_64Guest
+2018-01-18 00:23:10 : State: Guest NOT ready
+2018-01-18 00:23:10 : Power: poweredOff
+2018-01-18 00:23:10 : VM Tools: toolsNotRunning
+2018-01-18 00:23:10 : Net State: guestNetNotReady
+2018-01-18 00:23:10 : IP Address:
+2018-01-18 00:23:10 : 
+2018-01-18 00:23:10 : Name: CA APM TIM
+2018-01-18 00:23:10 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:23:10 : Guest: centos6_64Guest
+2018-01-18 00:23:10 : State: Guest NOT ready
+2018-01-18 00:23:10 : Power: poweredOn
+2018-01-18 00:23:10 : VM Tools: toolsOk
+2018-01-18 00:23:10 : Net State: guestNetReady
+2018-01-18 00:23:10 : IP Address: 10.242.81.197
+2018-01-18 00:23:10 : 
+2018-01-18 00:23:10 : Name: CA Experience Collector
+2018-01-18 00:23:10 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:23:10 : Guest: centos7_64Guest
+2018-01-18 00:23:10 : State: Guest NOT ready
+2018-01-18 00:23:10 : Power: poweredOff
+2018-01-18 00:23:11 : VM Tools: toolsNotRunning
+2018-01-18 00:23:11 : Net State: guestNetReady
+2018-01-18 00:23:11 : IP Address:
+2018-01-18 00:23:11 : 
+2018-01-18 00:23:11 : Name: CA Application Delivery Analysis
+2018-01-18 00:23:11 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:23:11 : Guest: windows8Server64Guest
+2018-01-18 00:23:11 : State: Guest is ready
+2018-01-18 00:23:11 : Hostname: ADA
+2018-01-18 00:23:11 : IP Address: 10.242.81.114
+2018-01-18 00:23:11 : ...staging files for version 0
+2018-01-18 00:23:11 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:23:11 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:23:11 : 
+2018-01-18 00:23:11 : Name: CA Network Flow Analysis
+2018-01-18 00:23:11 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:23:11 : Guest: windows7Server64Guest
+2018-01-18 00:23:11 : State: Guest NOT ready
+2018-01-18 00:23:11 : Power: poweredOff
+2018-01-18 00:23:11 : VM Tools: toolsNotRunning
+2018-01-18 00:23:11 : Net State: guestNetNotReady
+2018-01-18 00:23:11 : IP Address:
+2018-01-18 00:23:11 : 
+2018-01-18 00:23:11 : Name: CA Service Operations Insight
+2018-01-18 00:23:11 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:23:11 : Guest: windows7Server64Guest
+2018-01-18 00:23:11 : State: Guest NOT ready
+2018-01-18 00:23:11 : Power: poweredOff
+2018-01-18 00:23:11 : VM Tools: toolsNotRunning
+2018-01-18 00:23:11 : Net State: guestNetNotReady
+2018-01-18 00:23:11 : IP Address:
+2018-01-18 00:23:11 : 
+2018-01-18 00:23:11 : Name: CA Unified Infrastructure Management
+2018-01-18 00:23:11 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:23:11 : Guest: windows8Server64Guest
+2018-01-18 00:23:11 : State: Guest NOT ready
+2018-01-18 00:23:12 : Power: poweredOff
+2018-01-18 00:23:12 : VM Tools: toolsNotRunning
+2018-01-18 00:23:12 : Net State: guestNetNotReady
+2018-01-18 00:23:12 : IP Address:
+2018-01-18 00:23:12 : 
+2018-01-18 00:23:12 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 00:23:12 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:23:12 : FINISHED PoC Appliance Setup
+2018-01-18 00:23:12 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:34:13 : STARTED PoC Appliance Setup
+2018-01-18 00:34:13 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:34:13 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:34:13 : Writing output to setupAppliance.log
+2018-01-18 00:34:13 : 
+2018-01-18 00:34:15 : Importing information from setupAppliance.properties
+2018-01-18 00:34:15 : Host time: 2018-01-18 00:34:14.654661+00:00
+2018-01-18 00:34:15 : POC TZ: America/Los_Angeles
+2018-01-18 00:34:15 : Default Gateway:
+2018-01-18 00:34:15 : Netmask:
+2018-01-18 00:34:15 : DNS Servers:
+2018-01-18 00:34:15 : 
+2018-01-18 00:34:15 : Name: Ansible Controller
+2018-01-18 00:34:15 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:34:15 : Guest: centos7_64Guest
+2018-01-18 00:34:15 : State: Guest NOT ready
+2018-01-18 00:34:15 : Power: poweredOn
+2018-01-18 00:34:15 : VM Tools: toolsOk
+2018-01-18 00:34:15 : Net State: guestNetReady
+2018-01-18 00:34:16 : IP Address: 10.242.81.27
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Business Intelligence Reporter
+2018-01-18 00:34:16 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:34:16 : Guest: windows8Server64Guest
+2018-01-18 00:34:16 : State: Guest is ready
+2018-01-18 00:34:16 : Hostname: cabi
+2018-01-18 00:34:16 : IP Address: 10.242.81.28
+2018-01-18 00:34:16 : ...staging files for version 0
+2018-01-18 00:34:16 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:34:16 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: VMware vCenter Server Appliance
+2018-01-18 00:34:16 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:34:16 : Guest: other3xLinux64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOn
+2018-01-18 00:34:16 : VM Tools: toolsOk
+2018-01-18 00:34:16 : Net State: guestNetReady
+2018-01-18 00:34:16 : IP Address: 10.242.81.37
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Performance Center
+2018-01-18 00:34:16 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Data Repository
+2018-01-18 00:34:16 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Data Aggregator
+2018-01-18 00:34:16 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Data Collector
+2018-01-18 00:34:16 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Spectrum SS and OC
+2018-01-18 00:34:16 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Virtual Network Assurance
+2018-01-18 00:34:16 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA APM
+2018-01-18 00:34:16 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:34:16 : Guest: rhel7_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOff
+2018-01-18 00:34:16 : VM Tools: toolsNotRunning
+2018-01-18 00:34:16 : Net State: guestNetNotReady
+2018-01-18 00:34:16 : IP Address:
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA APM TIM
+2018-01-18 00:34:16 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:34:16 : Guest: centos6_64Guest
+2018-01-18 00:34:16 : State: Guest NOT ready
+2018-01-18 00:34:16 : Power: poweredOn
+2018-01-18 00:34:16 : VM Tools: toolsOk
+2018-01-18 00:34:16 : Net State: guestNetReady
+2018-01-18 00:34:16 : IP Address: 10.242.81.197
+2018-01-18 00:34:16 : 
+2018-01-18 00:34:16 : Name: CA Experience Collector
+2018-01-18 00:34:16 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:34:16 : Guest: centos7_64Guest
+2018-01-18 00:34:17 : State: Guest NOT ready
+2018-01-18 00:34:17 : Power: poweredOff
+2018-01-18 00:34:18 : VM Tools: toolsNotRunning
+2018-01-18 00:34:18 : Net State: guestNetReady
+2018-01-18 00:34:18 : IP Address:
+2018-01-18 00:34:18 : 
+2018-01-18 00:34:18 : Name: CA Application Delivery Analysis
+2018-01-18 00:34:18 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:34:18 : Guest: windows8Server64Guest
+2018-01-18 00:34:18 : State: Guest is ready
+2018-01-18 00:34:18 : Hostname: ADA
+2018-01-18 00:34:18 : IP Address: 10.242.81.114
+2018-01-18 00:34:18 : ...staging files for version 0
+2018-01-18 00:34:18 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:34:18 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:34:18 : 
+2018-01-18 00:34:18 : Name: CA Network Flow Analysis
+2018-01-18 00:34:18 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:34:18 : Guest: windows7Server64Guest
+2018-01-18 00:34:18 : State: Guest NOT ready
+2018-01-18 00:34:18 : Power: poweredOff
+2018-01-18 00:34:18 : VM Tools: toolsNotRunning
+2018-01-18 00:34:18 : Net State: guestNetNotReady
+2018-01-18 00:34:18 : IP Address:
+2018-01-18 00:34:18 : 
+2018-01-18 00:34:18 : Name: CA Service Operations Insight
+2018-01-18 00:34:18 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:34:18 : Guest: windows7Server64Guest
+2018-01-18 00:34:18 : State: Guest NOT ready
+2018-01-18 00:34:18 : Power: poweredOff
+2018-01-18 00:34:18 : VM Tools: toolsNotRunning
+2018-01-18 00:34:18 : Net State: guestNetNotReady
+2018-01-18 00:34:18 : IP Address:
+2018-01-18 00:34:18 : 
+2018-01-18 00:34:18 : Name: CA Unified Infrastructure Management
+2018-01-18 00:34:18 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:34:18 : Guest: windows8Server64Guest
+2018-01-18 00:34:18 : State: Guest NOT ready
+2018-01-18 00:34:18 : Power: poweredOff
+2018-01-18 00:34:18 : VM Tools: toolsNotRunning
+2018-01-18 00:34:18 : Net State: guestNetNotReady
+2018-01-18 00:34:18 : IP Address:
+2018-01-18 00:34:18 : 
+2018-01-18 00:34:18 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 00:34:18 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:34:18 : FINISHED PoC Appliance Setup
+2018-01-18 00:34:18 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 00:59:14 : STARTED PoC Appliance Setup
+2018-01-18 00:59:14 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 00:59:14 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 00:59:14 : Writing output to setupAppliance.log
+2018-01-18 00:59:14 : 
+2018-01-18 00:59:18 : Importing information from setupAppliance.properties
+2018-01-18 00:59:18 : Host time: 2018-01-18 00:59:15.471933+00:00
+2018-01-18 00:59:18 : POC TZ: America/Los_Angeles
+2018-01-18 00:59:18 : Default Gateway:
+2018-01-18 00:59:18 : Netmask:
+2018-01-18 00:59:18 : DNS Servers:
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: Ansible Controller
+2018-01-18 00:59:18 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 00:59:18 : Guest: centos7_64Guest
+2018-01-18 00:59:18 : State: Guest is ready
+2018-01-18 00:59:18 : Hostname: ansible.localdomain
+2018-01-18 00:59:18 : IP Address: 10.242.81.27
+2018-01-18 00:59:18 : ...staging files for version 0
+2018-01-18 00:59:18 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:59:18 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: CA Business Intelligence Reporter
+2018-01-18 00:59:18 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 00:59:18 : Guest: windows8Server64Guest
+2018-01-18 00:59:18 : State: Guest is ready
+2018-01-18 00:59:18 : Hostname: cabi
+2018-01-18 00:59:18 : IP Address: 10.242.81.28
+2018-01-18 00:59:18 : ...staging files for version 0
+2018-01-18 00:59:18 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:59:18 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: VMware vCenter Server Appliance
+2018-01-18 00:59:18 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 00:59:18 : Guest: other3xLinux64Guest
+2018-01-18 00:59:18 : State: Guest NOT ready
+2018-01-18 00:59:18 : Power: poweredOn
+2018-01-18 00:59:18 : VM Tools: toolsOk
+2018-01-18 00:59:18 : Net State: guestNetReady
+2018-01-18 00:59:18 : IP Address: 10.242.81.37
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: CA Performance Center
+2018-01-18 00:59:18 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 00:59:18 : Guest: centos7_64Guest
+2018-01-18 00:59:18 : State: Guest NOT ready
+2018-01-18 00:59:18 : Power: poweredOff
+2018-01-18 00:59:18 : VM Tools: toolsNotRunning
+2018-01-18 00:59:18 : Net State: guestNetNotReady
+2018-01-18 00:59:18 : IP Address:
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: CA Data Repository
+2018-01-18 00:59:18 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 00:59:18 : Guest: centos7_64Guest
+2018-01-18 00:59:18 : State: Guest NOT ready
+2018-01-18 00:59:18 : Power: poweredOff
+2018-01-18 00:59:18 : VM Tools: toolsNotRunning
+2018-01-18 00:59:18 : Net State: guestNetNotReady
+2018-01-18 00:59:18 : IP Address:
+2018-01-18 00:59:18 : 
+2018-01-18 00:59:18 : Name: CA Data Aggregator
+2018-01-18 00:59:19 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 00:59:19 : Guest: centos7_64Guest
+2018-01-18 00:59:19 : State: Guest NOT ready
+2018-01-18 00:59:19 : Power: poweredOff
+2018-01-18 00:59:19 : VM Tools: toolsNotRunning
+2018-01-18 00:59:19 : Net State: guestNetNotReady
+2018-01-18 00:59:19 : IP Address:
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA Data Collector
+2018-01-18 00:59:19 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 00:59:19 : Guest: centos7_64Guest
+2018-01-18 00:59:19 : State: Guest NOT ready
+2018-01-18 00:59:19 : Power: poweredOff
+2018-01-18 00:59:19 : VM Tools: toolsNotRunning
+2018-01-18 00:59:19 : Net State: guestNetNotReady
+2018-01-18 00:59:19 : IP Address:
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA Spectrum SS and OC
+2018-01-18 00:59:19 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 00:59:19 : Guest: centos7_64Guest
+2018-01-18 00:59:19 : State: Guest NOT ready
+2018-01-18 00:59:19 : Power: poweredOff
+2018-01-18 00:59:19 : VM Tools: toolsNotRunning
+2018-01-18 00:59:19 : Net State: guestNetNotReady
+2018-01-18 00:59:19 : IP Address:
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA Virtual Network Assurance
+2018-01-18 00:59:19 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 00:59:19 : Guest: centos7_64Guest
+2018-01-18 00:59:19 : State: Guest NOT ready
+2018-01-18 00:59:19 : Power: poweredOff
+2018-01-18 00:59:19 : VM Tools: toolsNotRunning
+2018-01-18 00:59:19 : Net State: guestNetNotReady
+2018-01-18 00:59:19 : IP Address:
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA APM
+2018-01-18 00:59:19 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 00:59:19 : Guest: rhel7_64Guest
+2018-01-18 00:59:19 : State: Guest NOT ready
+2018-01-18 00:59:19 : Power: poweredOff
+2018-01-18 00:59:19 : VM Tools: toolsNotRunning
+2018-01-18 00:59:19 : Net State: guestNetNotReady
+2018-01-18 00:59:19 : IP Address:
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA APM TIM
+2018-01-18 00:59:19 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 00:59:19 : Guest: centos6_64Guest
+2018-01-18 00:59:19 : State: Guest is ready
+2018-01-18 00:59:19 : Hostname: tim
+2018-01-18 00:59:19 : IP Address: 10.242.81.197
+2018-01-18 00:59:19 : ...staging files for version 0
+2018-01-18 00:59:19 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:59:19 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:59:19 : 
+2018-01-18 00:59:19 : Name: CA Experience Collector
+2018-01-18 00:59:19 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 00:59:19 : Guest: centos7_64Guest
+2018-01-18 00:59:21 : State: Guest NOT ready
+2018-01-18 00:59:21 : Power: poweredOff
+2018-01-18 00:59:21 : VM Tools: toolsNotRunning
+2018-01-18 00:59:21 : Net State: guestNetReady
+2018-01-18 00:59:21 : IP Address:
+2018-01-18 00:59:21 : 
+2018-01-18 00:59:21 : Name: CA Application Delivery Analysis
+2018-01-18 00:59:21 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 00:59:21 : Guest: windows8Server64Guest
+2018-01-18 00:59:21 : State: Guest is ready
+2018-01-18 00:59:21 : Hostname: ADA
+2018-01-18 00:59:21 : IP Address: 10.242.81.114
+2018-01-18 00:59:21 : ...staging files for version 0
+2018-01-18 00:59:21 : ...configuring IP address dhcp on VM Network
+2018-01-18 00:59:21 : ...configuring timezone America/Los_Angeles
+2018-01-18 00:59:21 : 
+2018-01-18 00:59:21 : Name: CA Network Flow Analysis
+2018-01-18 00:59:21 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 00:59:21 : Guest: windows7Server64Guest
+2018-01-18 00:59:21 : State: Guest NOT ready
+2018-01-18 00:59:21 : Power: poweredOff
+2018-01-18 00:59:21 : VM Tools: toolsNotRunning
+2018-01-18 00:59:21 : Net State: guestNetNotReady
+2018-01-18 00:59:21 : IP Address:
+2018-01-18 00:59:22 : 
+2018-01-18 00:59:22 : Name: CA Service Operations Insight
+2018-01-18 00:59:22 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 00:59:22 : Guest: windows7Server64Guest
+2018-01-18 00:59:22 : State: Guest NOT ready
+2018-01-18 00:59:22 : Power: poweredOff
+2018-01-18 00:59:22 : VM Tools: toolsNotRunning
+2018-01-18 00:59:22 : Net State: guestNetNotReady
+2018-01-18 00:59:22 : IP Address:
+2018-01-18 00:59:22 : 
+2018-01-18 00:59:22 : Name: CA Unified Infrastructure Management
+2018-01-18 00:59:22 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 00:59:22 : Guest: windows8Server64Guest
+2018-01-18 00:59:22 : State: Guest NOT ready
+2018-01-18 00:59:22 : Power: poweredOff
+2018-01-18 00:59:22 : VM Tools: toolsNotRunning
+2018-01-18 00:59:22 : Net State: guestNetNotReady
+2018-01-18 00:59:22 : IP Address:
+2018-01-18 00:59:22 : 
+2018-01-18 00:59:22 : ...configuring host resolution for Ansible Controller
+2018-01-18 00:59:22 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 00:59:22 : ...configuring host resolution for CA APM TIM
+2018-01-18 00:59:22 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 00:59:22 : FINISHED PoC Appliance Setup
+2018-01-18 00:59:22 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 01:21:20 : STARTED PoC Appliance Setup
+2018-01-18 01:21:20 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 01:21:20 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 01:21:20 : Writing output to setupAppliance.log
+2018-01-18 01:21:20 : 
+2018-01-18 01:21:24 : Importing information from setupAppliance.properties
+2018-01-18 01:21:24 : Host time: 2018-01-18 01:21:21.951606+00:00
+2018-01-18 01:21:24 : POC TZ: America/Los_Angeles
+2018-01-18 01:21:24 : Default Gateway: 10.242.80.1
+2018-01-18 01:21:24 : Netmask: 255.255.254.0
+2018-01-18 01:21:24 : DNS Servers: 172.16.144.14
+2018-01-18 01:21:24 : 
+2018-01-18 01:21:24 : Name: Ansible Controller
+2018-01-18 01:21:24 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 01:21:24 : Guest: centos7_64Guest
+2018-01-18 01:21:24 : State: Guest is ready
+2018-01-18 01:21:24 : Hostname: ansible.localdomain
+2018-01-18 01:21:24 : IP Address: 10.242.81.27
+2018-01-18 01:21:24 : ...staging files for version 0
+2018-01-18 01:21:24 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:21:24 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:21:24 : 
+2018-01-18 01:21:24 : Name: CA Business Intelligence Reporter
+2018-01-18 01:21:24 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 01:21:24 : Guest: windows8Server64Guest
+2018-01-18 01:21:25 : State: Guest is ready
+2018-01-18 01:21:25 : Hostname: cabi
+2018-01-18 01:21:25 : IP Address: 10.242.81.28
+2018-01-18 01:21:25 : ...staging files for version 0
+2018-01-18 01:21:25 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:21:25 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: VMware vCenter Server Appliance
+2018-01-18 01:21:25 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 01:21:25 : Guest: other3xLinux64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOn
+2018-01-18 01:21:25 : VM Tools: toolsOk
+2018-01-18 01:21:25 : Net State: guestNetReady
+2018-01-18 01:21:25 : IP Address: 10.242.81.37
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Performance Center
+2018-01-18 01:21:25 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Data Repository
+2018-01-18 01:21:25 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Data Aggregator
+2018-01-18 01:21:25 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Data Collector
+2018-01-18 01:21:25 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Spectrum SS and OC
+2018-01-18 01:21:25 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Virtual Network Assurance
+2018-01-18 01:21:25 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 01:21:25 : Guest: centos7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA APM
+2018-01-18 01:21:25 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 01:21:25 : Guest: rhel7_64Guest
+2018-01-18 01:21:25 : State: Guest NOT ready
+2018-01-18 01:21:25 : Power: poweredOff
+2018-01-18 01:21:25 : VM Tools: toolsNotRunning
+2018-01-18 01:21:25 : Net State: guestNetNotReady
+2018-01-18 01:21:25 : IP Address:
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA APM TIM
+2018-01-18 01:21:25 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 01:21:25 : Guest: centos6_64Guest
+2018-01-18 01:21:25 : State: Guest is ready
+2018-01-18 01:21:25 : Hostname: tim
+2018-01-18 01:21:25 : IP Address: 10.242.81.197
+2018-01-18 01:21:25 : ...staging files for version 0
+2018-01-18 01:21:25 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:21:25 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:21:25 : 
+2018-01-18 01:21:25 : Name: CA Experience Collector
+2018-01-18 01:21:26 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 01:21:26 : Guest: centos7_64Guest
+2018-01-18 01:21:28 : State: Guest NOT ready
+2018-01-18 01:21:28 : Power: poweredOff
+2018-01-18 01:21:28 : VM Tools: toolsNotRunning
+2018-01-18 01:21:28 : Net State: guestNetReady
+2018-01-18 01:21:28 : IP Address:
+2018-01-18 01:21:28 : 
+2018-01-18 01:21:28 : Name: CA Application Delivery Analysis
+2018-01-18 01:21:28 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 01:21:28 : Guest: windows8Server64Guest
+2018-01-18 01:21:28 : State: Guest is ready
+2018-01-18 01:21:28 : Hostname: ADA
+2018-01-18 01:21:28 : IP Address: 10.242.81.114
+2018-01-18 01:21:28 : ...staging files for version 0
+2018-01-18 01:21:28 : ...configuring IP address 10.242.81.114 on VM Network
+2018-01-18 01:21:28 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:21:28 : 
+2018-01-18 01:21:28 : Name: CA Network Flow Analysis
+2018-01-18 01:21:28 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 01:21:28 : Guest: windows7Server64Guest
+2018-01-18 01:21:28 : State: Guest NOT ready
+2018-01-18 01:21:28 : Power: poweredOff
+2018-01-18 01:21:28 : VM Tools: toolsNotRunning
+2018-01-18 01:21:28 : Net State: guestNetNotReady
+2018-01-18 01:21:28 : IP Address:
+2018-01-18 01:21:28 : 
+2018-01-18 01:21:28 : Name: CA Service Operations Insight
+2018-01-18 01:21:28 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 01:21:28 : Guest: windows7Server64Guest
+2018-01-18 01:21:28 : State: Guest NOT ready
+2018-01-18 01:21:28 : Power: poweredOff
+2018-01-18 01:21:28 : VM Tools: toolsNotRunning
+2018-01-18 01:21:28 : Net State: guestNetNotReady
+2018-01-18 01:21:28 : IP Address:
+2018-01-18 01:21:28 : 
+2018-01-18 01:21:28 : Name: CA Unified Infrastructure Management
+2018-01-18 01:21:28 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 01:21:28 : Guest: windows8Server64Guest
+2018-01-18 01:21:28 : State: Guest NOT ready
+2018-01-18 01:21:28 : Power: poweredOff
+2018-01-18 01:21:28 : VM Tools: toolsNotRunning
+2018-01-18 01:21:28 : Net State: guestNetNotReady
+2018-01-18 01:21:28 : IP Address:
+2018-01-18 01:21:28 : 
+2018-01-18 01:21:28 : ...configuring host resolution for Ansible Controller
+2018-01-18 01:21:28 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 01:21:28 : ...configuring host resolution for CA APM TIM
+2018-01-18 01:21:28 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 01:21:28 : FINISHED PoC Appliance Setup
+2018-01-18 01:21:28 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 01:22:45 : STARTED PoC Appliance Setup
+2018-01-18 01:22:45 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 01:22:45 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 01:22:45 : Writing output to setupAppliance.log
+2018-01-18 01:22:45 : 
+2018-01-18 01:22:49 : Importing information from setupAppliance.properties
+2018-01-18 01:22:49 : Host time: 2018-01-18 01:22:46.722119+00:00
+2018-01-18 01:22:49 : POC TZ: America/Los_Angeles
+2018-01-18 01:22:49 : Default Gateway: 10.242.80.1
+2018-01-18 01:22:49 : Netmask: 255.255.254.0
+2018-01-18 01:22:49 : DNS Servers: 172.16.144.14
+2018-01-18 01:22:49 : 
+2018-01-18 01:22:49 : Name: Ansible Controller
+2018-01-18 01:22:49 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 01:22:49 : Guest: centos7_64Guest
+2018-01-18 01:22:49 : State: Guest is ready
+2018-01-18 01:22:49 : Hostname: ansible.localdomain
+2018-01-18 01:22:49 : IP Address: 10.242.81.27
+2018-01-18 01:22:49 : ...staging files for version 0
+2018-01-18 01:22:49 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:22:49 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:22:49 : 
+2018-01-18 01:22:49 : Name: CA Business Intelligence Reporter
+2018-01-18 01:22:49 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 01:22:49 : Guest: windows8Server64Guest
+2018-01-18 01:22:49 : State: Guest is ready
+2018-01-18 01:22:49 : Hostname: cabi
+2018-01-18 01:22:49 : IP Address: 10.242.81.28
+2018-01-18 01:22:49 : ...staging files for version 0
+2018-01-18 01:22:50 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:22:50 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: VMware vCenter Server Appliance
+2018-01-18 01:22:50 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 01:22:50 : Guest: other3xLinux64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOn
+2018-01-18 01:22:50 : VM Tools: toolsOk
+2018-01-18 01:22:50 : Net State: guestNetReady
+2018-01-18 01:22:50 : IP Address: 10.242.81.37
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Performance Center
+2018-01-18 01:22:50 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Data Repository
+2018-01-18 01:22:50 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Data Aggregator
+2018-01-18 01:22:50 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Data Collector
+2018-01-18 01:22:50 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Spectrum SS and OC
+2018-01-18 01:22:50 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Virtual Network Assurance
+2018-01-18 01:22:50 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA APM
+2018-01-18 01:22:50 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 01:22:50 : Guest: rhel7_64Guest
+2018-01-18 01:22:50 : State: Guest NOT ready
+2018-01-18 01:22:50 : Power: poweredOff
+2018-01-18 01:22:50 : VM Tools: toolsNotRunning
+2018-01-18 01:22:50 : Net State: guestNetNotReady
+2018-01-18 01:22:50 : IP Address:
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA APM TIM
+2018-01-18 01:22:50 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 01:22:50 : Guest: centos6_64Guest
+2018-01-18 01:22:50 : State: Guest is ready
+2018-01-18 01:22:50 : Hostname: tim
+2018-01-18 01:22:50 : IP Address: 10.242.81.197
+2018-01-18 01:22:50 : ...staging files for version 0
+2018-01-18 01:22:50 : ...configuring IP address 10.242.81.197 on VM Network
+2018-01-18 01:22:50 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:22:50 : 
+2018-01-18 01:22:50 : Name: CA Experience Collector
+2018-01-18 01:22:50 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 01:22:50 : Guest: centos7_64Guest
+2018-01-18 01:22:53 : State: Guest NOT ready
+2018-01-18 01:22:53 : Power: poweredOff
+2018-01-18 01:22:53 : VM Tools: toolsNotRunning
+2018-01-18 01:22:53 : Net State: guestNetReady
+2018-01-18 01:22:53 : IP Address:
+2018-01-18 01:22:53 : 
+2018-01-18 01:22:53 : Name: CA Application Delivery Analysis
+2018-01-18 01:22:53 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 01:22:53 : Guest: windows8Server64Guest
+2018-01-18 01:22:53 : State: Guest is ready
+2018-01-18 01:22:53 : Hostname: ADA
+2018-01-18 01:22:53 : IP Address: 10.242.81.114
+2018-01-18 01:22:53 : ...staging files for version 0
+2018-01-18 01:22:53 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:22:53 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:22:53 : 
+2018-01-18 01:22:53 : Name: CA Network Flow Analysis
+2018-01-18 01:22:53 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 01:22:53 : Guest: windows7Server64Guest
+2018-01-18 01:22:53 : State: Guest NOT ready
+2018-01-18 01:22:53 : Power: poweredOff
+2018-01-18 01:22:53 : VM Tools: toolsNotRunning
+2018-01-18 01:22:53 : Net State: guestNetNotReady
+2018-01-18 01:22:53 : IP Address:
+2018-01-18 01:22:53 : 
+2018-01-18 01:22:53 : Name: CA Service Operations Insight
+2018-01-18 01:22:53 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 01:22:53 : Guest: windows7Server64Guest
+2018-01-18 01:22:53 : State: Guest NOT ready
+2018-01-18 01:22:53 : Power: poweredOff
+2018-01-18 01:22:53 : VM Tools: toolsNotRunning
+2018-01-18 01:22:53 : Net State: guestNetNotReady
+2018-01-18 01:22:53 : IP Address:
+2018-01-18 01:22:53 : 
+2018-01-18 01:22:53 : Name: CA Unified Infrastructure Management
+2018-01-18 01:22:53 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 01:22:53 : Guest: windows8Server64Guest
+2018-01-18 01:22:53 : State: Guest NOT ready
+2018-01-18 01:22:53 : Power: poweredOff
+2018-01-18 01:22:53 : VM Tools: toolsNotRunning
+2018-01-18 01:22:53 : Net State: guestNetNotReady
+2018-01-18 01:22:53 : IP Address:
+2018-01-18 01:22:53 : 
+2018-01-18 01:22:53 : ...configuring host resolution for Ansible Controller
+2018-01-18 01:22:53 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 01:22:53 : ...configuring host resolution for CA APM TIM
+2018-01-18 01:22:53 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 01:22:53 : FINISHED PoC Appliance Setup
+2018-01-18 01:22:53 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.
+2018-01-18 01:28:00 : STARTED PoC Appliance Setup
+2018-01-18 01:28:00 : PoC Appliance Version: PoC Appliance Script V4.3
+2018-01-18 01:28:00 : setupAppliance working directory is /vmfs/volumes/snap-18c86a7c-Storage0/setupAppliance
+2018-01-18 01:28:00 : Writing output to setupAppliance.log
+2018-01-18 01:28:00 : 
+2018-01-18 01:28:04 : Importing information from setupAppliance.properties
+2018-01-18 01:28:04 : Host time: 2018-01-18 01:28:01.461370+00:00
+2018-01-18 01:28:04 : POC TZ: America/Los_Angeles
+2018-01-18 01:28:04 : Default Gateway:
+2018-01-18 01:28:04 : Netmask:
+2018-01-18 01:28:04 : DNS Servers:
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: Ansible Controller
+2018-01-18 01:28:04 : UUID: 564d5e87-6688-953c-ae78-29f6a2af4b3f
+2018-01-18 01:28:04 : Guest: centos7_64Guest
+2018-01-18 01:28:04 : State: Guest is ready
+2018-01-18 01:28:04 : Hostname: ansible.localdomain
+2018-01-18 01:28:04 : IP Address: 10.242.81.27
+2018-01-18 01:28:04 : ...staging files for version 0
+2018-01-18 01:28:04 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:28:04 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: CA Business Intelligence Reporter
+2018-01-18 01:28:04 : UUID: 564d3f12-cfc3-3118-92f2-cfbbc68166be
+2018-01-18 01:28:04 : Guest: windows8Server64Guest
+2018-01-18 01:28:04 : State: Guest is ready
+2018-01-18 01:28:04 : Hostname: cabi
+2018-01-18 01:28:04 : IP Address: 10.242.81.28
+2018-01-18 01:28:04 : ...staging files for version 0
+2018-01-18 01:28:04 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:28:04 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: VMware vCenter Server Appliance
+2018-01-18 01:28:04 : UUID: 564d86d2-a596-2176-8193-67f6103fd7e3
+2018-01-18 01:28:04 : Guest: other3xLinux64Guest
+2018-01-18 01:28:04 : State: Guest NOT ready
+2018-01-18 01:28:04 : Power: poweredOn
+2018-01-18 01:28:04 : VM Tools: toolsOk
+2018-01-18 01:28:04 : Net State: guestNetReady
+2018-01-18 01:28:04 : IP Address: 10.242.81.37
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: CA Performance Center
+2018-01-18 01:28:04 : UUID: 4216c2ef-8d0c-f990-1734-a985fcd97fa0
+2018-01-18 01:28:04 : Guest: centos7_64Guest
+2018-01-18 01:28:04 : State: Guest NOT ready
+2018-01-18 01:28:04 : Power: poweredOff
+2018-01-18 01:28:04 : VM Tools: toolsNotRunning
+2018-01-18 01:28:04 : Net State: guestNetNotReady
+2018-01-18 01:28:04 : IP Address:
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: CA Data Repository
+2018-01-18 01:28:04 : UUID: 42163b63-c9eb-1817-24c0-f89caaf7ad93
+2018-01-18 01:28:04 : Guest: centos7_64Guest
+2018-01-18 01:28:04 : State: Guest NOT ready
+2018-01-18 01:28:04 : Power: poweredOff
+2018-01-18 01:28:04 : VM Tools: toolsNotRunning
+2018-01-18 01:28:04 : Net State: guestNetNotReady
+2018-01-18 01:28:04 : IP Address:
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: CA Data Aggregator
+2018-01-18 01:28:04 : UUID: 4216c63f-9388-e447-f7ec-17d8e58d6daf
+2018-01-18 01:28:04 : Guest: centos7_64Guest
+2018-01-18 01:28:04 : State: Guest NOT ready
+2018-01-18 01:28:04 : Power: poweredOff
+2018-01-18 01:28:04 : VM Tools: toolsNotRunning
+2018-01-18 01:28:04 : Net State: guestNetNotReady
+2018-01-18 01:28:04 : IP Address:
+2018-01-18 01:28:04 : 
+2018-01-18 01:28:04 : Name: CA Data Collector
+2018-01-18 01:28:05 : UUID: 421618a0-c9a5-1a82-544d-1a26396c46c7
+2018-01-18 01:28:05 : Guest: centos7_64Guest
+2018-01-18 01:28:05 : State: Guest NOT ready
+2018-01-18 01:28:05 : Power: poweredOff
+2018-01-18 01:28:05 : VM Tools: toolsNotRunning
+2018-01-18 01:28:05 : Net State: guestNetNotReady
+2018-01-18 01:28:05 : IP Address:
+2018-01-18 01:28:05 : 
+2018-01-18 01:28:05 : Name: CA Spectrum SS and OC
+2018-01-18 01:28:05 : UUID: 4216f21a-9eaa-b5a6-542d-5e807c316d7a
+2018-01-18 01:28:05 : Guest: centos7_64Guest
+2018-01-18 01:28:05 : State: Guest NOT ready
+2018-01-18 01:28:05 : Power: poweredOff
+2018-01-18 01:28:05 : VM Tools: toolsNotRunning
+2018-01-18 01:28:05 : Net State: guestNetNotReady
+2018-01-18 01:28:05 : IP Address:
+2018-01-18 01:28:05 : 
+2018-01-18 01:28:05 : Name: CA Virtual Network Assurance
+2018-01-18 01:28:05 : UUID: 421617f9-55ff-8406-9781-b2691c6352b0
+2018-01-18 01:28:05 : Guest: centos7_64Guest
+2018-01-18 01:28:05 : State: Guest NOT ready
+2018-01-18 01:28:05 : Power: poweredOff
+2018-01-18 01:28:05 : VM Tools: toolsNotRunning
+2018-01-18 01:28:05 : Net State: guestNetNotReady
+2018-01-18 01:28:05 : IP Address:
+2018-01-18 01:28:05 : 
+2018-01-18 01:28:05 : Name: CA APM
+2018-01-18 01:28:05 : UUID: 42161c78-6a95-b3bc-3592-f7a498a5328b
+2018-01-18 01:28:05 : Guest: rhel7_64Guest
+2018-01-18 01:28:05 : State: Guest NOT ready
+2018-01-18 01:28:05 : Power: poweredOff
+2018-01-18 01:28:05 : VM Tools: toolsNotRunning
+2018-01-18 01:28:05 : Net State: guestNetNotReady
+2018-01-18 01:28:05 : IP Address:
+2018-01-18 01:28:05 : 
+2018-01-18 01:28:05 : Name: CA APM TIM
+2018-01-18 01:28:05 : UUID: 421692e6-debb-c6ad-6204-be29449c6d86
+2018-01-18 01:28:05 : Guest: centos6_64Guest
+2018-01-18 01:28:05 : State: Guest is ready
+2018-01-18 01:28:05 : Hostname: tim
+2018-01-18 01:28:05 : IP Address: 10.242.81.197
+2018-01-18 01:28:05 : ...staging files for version 0
+2018-01-18 01:28:05 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:28:05 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:28:05 : 
+2018-01-18 01:28:05 : Name: CA Experience Collector
+2018-01-18 01:28:05 : UUID: 42166fea-5668-fd5b-5241-3901b75846a3
+2018-01-18 01:28:05 : Guest: centos7_64Guest
+2018-01-18 01:28:07 : State: Guest NOT ready
+2018-01-18 01:28:07 : Power: poweredOff
+2018-01-18 01:28:07 : VM Tools: toolsNotRunning
+2018-01-18 01:28:07 : Net State: guestNetReady
+2018-01-18 01:28:07 : IP Address:
+2018-01-18 01:28:07 : 
+2018-01-18 01:28:07 : Name: CA Application Delivery Analysis
+2018-01-18 01:28:07 : UUID: 564d987e-a44c-c745-1d23-766b8518f301
+2018-01-18 01:28:07 : Guest: windows8Server64Guest
+2018-01-18 01:28:07 : State: Guest is ready
+2018-01-18 01:28:07 : Hostname: ADA
+2018-01-18 01:28:07 : IP Address: 10.242.81.239
+2018-01-18 01:28:07 : ...staging files for version 0
+2018-01-18 01:28:07 : ...configuring IP address dhcp on VM Network
+2018-01-18 01:28:07 : ...configuring timezone America/Los_Angeles
+2018-01-18 01:28:07 : 
+2018-01-18 01:28:07 : Name: CA Network Flow Analysis
+2018-01-18 01:28:07 : UUID: 564d95df-abb4-3503-327f-c7d81daa12f0
+2018-01-18 01:28:07 : Guest: windows7Server64Guest
+2018-01-18 01:28:07 : State: Guest NOT ready
+2018-01-18 01:28:07 : Power: poweredOff
+2018-01-18 01:28:07 : VM Tools: toolsNotRunning
+2018-01-18 01:28:07 : Net State: guestNetNotReady
+2018-01-18 01:28:07 : IP Address:
+2018-01-18 01:28:07 : 
+2018-01-18 01:28:07 : Name: CA Service Operations Insight
+2018-01-18 01:28:07 : UUID: 564ddc2a-5412-aa8d-5230-18b7f679fc00
+2018-01-18 01:28:07 : Guest: windows7Server64Guest
+2018-01-18 01:28:07 : State: Guest NOT ready
+2018-01-18 01:28:07 : Power: poweredOff
+2018-01-18 01:28:07 : VM Tools: toolsNotRunning
+2018-01-18 01:28:07 : Net State: guestNetNotReady
+2018-01-18 01:28:07 : IP Address:
+2018-01-18 01:28:07 : 
+2018-01-18 01:28:07 : Name: CA Unified Infrastructure Management
+2018-01-18 01:28:08 : UUID: 564d8252-ca2b-6802-c742-526d135634e3
+2018-01-18 01:28:08 : Guest: windows8Server64Guest
+2018-01-18 01:28:08 : State: Guest NOT ready
+2018-01-18 01:28:08 : Power: poweredOff
+2018-01-18 01:28:08 : VM Tools: toolsNotRunning
+2018-01-18 01:28:08 : Net State: guestNetNotReady
+2018-01-18 01:28:08 : IP Address:
+2018-01-18 01:28:08 : 
+2018-01-18 01:28:08 : ...configuring host resolution for Ansible Controller
+2018-01-18 01:28:08 : ...configuring host resolution for CA Business Intelligence Reporter
+2018-01-18 01:28:08 : ...configuring host resolution for CA APM TIM
+2018-01-18 01:28:08 : ...configuring host resolution for CA Application Delivery Analysis
+2018-01-18 01:28:08 : FINISHED PoC Appliance Setup
+2018-01-18 01:28:08 : NOTE: For each VM that was updated, it is recommended to restart its application, to pick up all changes.

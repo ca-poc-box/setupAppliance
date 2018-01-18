@@ -1,0 +1,146 @@
+{
+    "VMs": [
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "root"
+            }, 
+            "name": "CA APM", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564d3b67-5496-bfe2-479e-1fa6d9c489cb", 
+            "vmx": "CA APM.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "root"
+            }, 
+            "name": "CA APM TIM", 
+            "networks": [], 
+            "timezone": null, 
+            "uuid": "564d6505-8440-a921-91ec-4075327a4dd0", 
+            "vmx": "CA APM TIM.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "administrator"
+            }, 
+            "name": "CA Application Delivery Analysis", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564d987e-a44c-c745-1d23-766b8518f301", 
+            "vmx": "CA Application Delivery Analysis.vmx"
+        }, 
+        {
+            "authentication": null, 
+            "name": "CA Mobile App Analytics", 
+            "networks": [], 
+            "timezone": null, 
+            "uuid": "564d341e-77ce-a439-af1c-4f7223f30d72", 
+            "vmx": "CA Mobile App Analytics.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "Administrator"
+            }, 
+            "name": "CA Network Flow Analysis", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564d95df-abb4-3503-327f-c7d81daa12f0", 
+            "vmx": "CA Network Flow Analysis.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "Administrator"
+            }, 
+            "name": "CA Service Operations Insight", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564ddc2a-5412-aa8d-5230-18b7f679fc00", 
+            "vmx": "CA Service Operations Insight.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "Administrator"
+            }, 
+            "name": "CA Spectrum", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564db0a1-f21f-4d68-2b63-4e8bf2db2e7e", 
+            "vmx": "CA Spectrum.vmx"
+        }, 
+        {
+            "authentication": {
+                "password": "CAdemo123", 
+                "username": "Administrator"
+            }, 
+            "name": "CA Unified Infrastructure Management", 
+            "networks": [
+                {
+                    "dns": [], 
+                    "gateway": "", 
+                    "ipaddr": "dhcp", 
+                    "netmask": "", 
+                    "network": "VM Network"
+                }
+            ], 
+            "timezone": null, 
+            "uuid": "564d8252-ca2b-6802-c742-526d135634e3", 
+            "vmx": "CA Unified Infrastructure Management.vmx"
+        }
+    ], 
+    "system": {
+        "dns": [], 
+        "gateway": "", 
+        "netmask": "", 
+        "timezone": {
+            "tz": "America/Los_Angeles", 
+            "tzWin": "Pacific Standard Time"
+        }
+    }
+}
